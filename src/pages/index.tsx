@@ -93,15 +93,15 @@ const Home: NextPage = () => {
       title: 'ESTAÇÃO DE RECARGA BCP-CT2N-P AC 22kM',
       description: '22kW - 2 conectores - 5M DE CABO',
       image: carregadorBCP,
-      imageDescription: 'estacao-DC',
-      nav: '/conector-click',
+      imageDescription: 'estacao-BCP',
+      nav: '/estacao-BCP',
     },
     {
       title: 'ESTAÇÃO DE RECARGA CC EV BBDC 30kW',
       description: 'AC - 30kW - 2 conectores',
       image: carregadorCCDF,
       imageDescription: 'estacao-BBDC',
-      nav: '/conector-click',
+      nav: '/estacao-BBDC',
     },
     {
       title: 'ESTAÇÃO DE RECARGA DC BDC120-D',
