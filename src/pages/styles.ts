@@ -142,8 +142,8 @@ export const Products = styled.section`
       margin: 0;
       width: 35rem;
       height: 25rem;
-      margin-top: 4rem;
-      margin-bottom: 4rem;
+      margin-top: 10rem;
+      margin-bottom: 10rem;
     }
 
     @media screen and (max-width: 1000px) {
