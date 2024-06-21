@@ -31,6 +31,7 @@ const Support: NextPage = () => {
       </Banner> */}
 
       <FirstSection>
+
         <div className="section2">
           <div className="card">
             <p>Downloads firmwares</p>

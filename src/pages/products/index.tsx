@@ -12,6 +12,14 @@ import Fusao from '../../../public/assets/home/produtos_home/fusao.png';
 import ConectorRosca from '../../../public/assets/home/produtos_home/conector_rosca.png';
 import ConectorClip from '../../../public/assets/home/produtos_home/conector_clip.png';
 
+//new image
+import carregadorEst from '../../../public/assets/home/produtos_home/carregador_estação.png';
+import carregadorBCP from '../../../public/assets/home/produtos_home/carregador_bcp-AT2n.png';
+import carregadorCCDF from '../../../public/assets/home/produtos_home/carregador_CCDC.png';
+import carregadorAC from '../../../public/assets/home/produtos_home/carregador_AC_BCP_solo.png';
+
+
+//----------------------------------------------------------------
 import Warranty from '../../../public/assets/images/products-img/prod-banner2-icon2.png';
 import Chip from '../../../public/assets/images/products-img/prod-banner2-icon1.png';
 import Support from '../../../public/assets/images/products-img/prod-banner2-icon3.png';
@@ -77,6 +85,36 @@ const Products: NextPage = () => {
       image: ConectorClip,
       imageDescription: 'ConectorClip',
       nav: '/conector-click',
+    },
+
+
+    {
+      title: 'ESTAÇÃO DE RECARGA BCP-CT2N-P AC 22kM',
+      description: '22kW - 2 conectores - 5M DE CABO',
+      image: carregadorBCP,
+      imageDescription: 'estacao-BCP',
+      nav: '/estacao-BCP',
+    },
+    {
+      title: 'ESTAÇÃO DE RECARGA AC BCP-CT2N-P SOLO',
+      description: '2 CARTÕES RFID - 22kW - 2 CONECTORES',
+      image: carregadorAC,
+      imageDescription: 'estacao-AC',
+      nav: '/estacao-AC',
+    },
+    {
+      title: 'ESTAÇÃO DE RECARGA CC EV BBDC 30kW',
+      description: 'AC - 30kW - 2 conectores',
+      image: carregadorCCDF,
+      imageDescription: 'estacao-BBDC',
+      nav: '/estacao-BBDC',
+    },
+    {
+      title: 'ESTAÇÃO DE RECARGA DC BDC120-D',
+      description: 'AC - 60kW e 120kW - 2 conectores',
+      image: carregadorEst,
+      imageDescription: '/estacao-BDC',
+      nav: '/estacao-BDC',
     },
   ];
 

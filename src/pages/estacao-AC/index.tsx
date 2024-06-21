@@ -16,7 +16,7 @@ export default function conector() {
   return (
     <>
       <Head>
-        <title>Hurakall - Conector Click</title>
+        <title>Hurakall - Estação AC</title>
         <meta name="description" content="hurakall" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -203,7 +203,7 @@ A personalização de todos os tipos de conectores de carregamento torna-o altam
 
       <SeventhSection>
         <div className="container">
-          <h1>Umas de nossas instalações</h1>
+          <h1>Galeria</h1>
           <div className="manufacturing-images">
             <span className="image">
               <img src="assets/estacao-AC/1.png" alt="" />

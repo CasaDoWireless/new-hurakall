@@ -168,6 +168,7 @@ export const SecondSection = styled.section`
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      margin-bottom: 5rem;
       align-items: center;
       div {
         background-image: linear-gradient(135deg, #060000, #2b2b2b);
@@ -190,7 +191,7 @@ export const SecondSection = styled.section`
         }
 
         figure {
-          width: 10rem;
+          width: 8rem;
           margin: 0;
           padding: 0.5rem;
         }
@@ -215,6 +216,7 @@ export const SecondSection = styled.section`
       main {
         div {
           width: 20rem;
+           margin-bottom: 10rem;
           height: 20rem;
           figure {
             width: 15rem;

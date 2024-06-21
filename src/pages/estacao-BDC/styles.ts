@@ -11,7 +11,7 @@ export const FirstSection = styled.section`
   padding: 0 5rem;
   position: relative;
 
-  background: url(${'assets/estacao-BBDC/carregador_BBDC_bg_1.png'}) no-repeat fixed center;
+  background: url(${'assets/estacao-BDC/BDC_bg.jpg.png'}) no-repeat fixed center;
   background-size: cover;
   z-index: 0;
 
@@ -20,7 +20,7 @@ export const FirstSection = styled.section`
     margin-top: 4rem;
     margin-bottom: 4rem;
     z-index: 2;
-    box-shadow: bla;
+    box-shadow: black;
   }
 
   @media screen and (max-width: 1020px) {
@@ -57,6 +57,7 @@ export const SecondSection = styled.section`
 
   .section2 {
     max-width: 2000px;
+    
   }
 
   .title {
@@ -68,6 +69,7 @@ export const SecondSection = styled.section`
       font-size: 1.7rem;
       align-items: center;
       padding-bottom: 2rem;
+      
     }
   }
   .conteudo {
@@ -237,7 +239,7 @@ export const FouthSection = styled.section`
       height: 130px;
       position: absolute;
       margin: 2rem 3rem 0 1rem;
-      left: 48%;
+      left: 49%;
     }
     .premium {
       h1 {

@@ -82,19 +82,20 @@ const Home: NextPage = () => {
       imageDescription: 'ConectorClip',
       nav: '/conector-click',
     },
-    {
-      title: 'ESTAÇÃO DE RECARGA AC BCP-CT2N-P SOLO',
-      description: '2 CARTÕES RFID - 22kW - 2 CONECTORES',
-      image: carregadorAC,
-      imageDescription: 'estacao-AC',
-      nav: '/estacao-AC',
-    },
+    
     {
       title: 'ESTAÇÃO DE RECARGA BCP-CT2N-P AC 22kM',
       description: '22kW - 2 conectores - 5M DE CABO',
       image: carregadorBCP,
       imageDescription: 'estacao-BCP',
       nav: '/estacao-BCP',
+    },
+    {
+      title: 'ESTAÇÃO DE RECARGA AC BCP-CT2N-P SOLO',
+      description: '2 CARTÕES RFID - 22kW - 2 CONECTORES',
+      image: carregadorAC,
+      imageDescription: 'estacao-AC',
+      nav: '/estacao-AC',
     },
     {
       title: 'ESTAÇÃO DE RECARGA CC EV BBDC 30kW',
@@ -107,8 +108,8 @@ const Home: NextPage = () => {
       title: 'ESTAÇÃO DE RECARGA DC BDC120-D',
       description: 'AC - 60kW e 120kW - 2 conectores',
       image: carregadorEst,
-      imageDescription: 'estacao-DC-BDC',
-      nav: '/conector-click',
+      imageDescription: '/estacao-BDC',
+      nav: '/estacao-BDC',
     },
   ];
 

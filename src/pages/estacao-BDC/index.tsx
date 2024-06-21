@@ -16,14 +16,14 @@ export default function conector() {
   return (
     <>
       <Head>
-        <title>Hurakall - Estação BBDC</title>
+        <title>Hurakall - Estação BDC</title>
         <meta name="description" content="hurakall" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Menu />
       <FirstSection>
         <div className="section1">
-          <img src="/assets/estacao-BBDC/carregador_CCDC.png" alt="" />
+          <img src="/assets/estacao-BDC/carregador_estação.png" alt="" />
         </div>
       </FirstSection>
 
@@ -31,13 +31,12 @@ export default function conector() {
         <div className="section2">
           <div className="title">
             <p>
-            ESTAÇÃO DE RECARGA CC EV Hurakall 30kW</p>
+            ESTAÇÃO DE RECARGA DC BDC120-D</p>
           </div>
-          <img src="/assets/estacao-BBDC/3 Fotos.jpg" alt="" />
+          <img src="/assets/estacao-BDC/3 Fotos.png" alt="" />
           <div className="conteudo">
             <p>
-            Estação de carregamento Hurakall EV Carregamento rápido, economia de tempo e energia, alta segurança
-            </p>
+            O produto possui design de proteção múltipla e função de proteção ativa, que pode monitorar todos os dados de comunicação no processo de carregamento e avisar antecipadamente todos os tipos de carregamento anormal para garantir a segurança dos usuários e veículos.</p>
           </div>
         </div>
       </SecondSection>
@@ -45,14 +44,12 @@ export default function conector() {
       <ThirdSection>
         <article>
           <p>
-          O carregador DC EV montado na parede possui design de proteção múltipla e função de proteção ativa, que pode monitorar todos os dados de comunicação no processo de carregamento e avisar antecipadamente todos os tipos de carregamento anormal para garantir a segurança dos usuários e veículos.
-
-
+          A estação de carregamento Hurakall DC EV tem capacidade de cálculo e processamento de dados mais poderosa, estratégia de despacho mais inteligente, melhor desempenho de dissipação de calor e menor ruído, e atende totalmente aos requisitos de carregamento DC de alta potência de veículos com interface DC padrão global.
           </p>
         </article>
 
         <div className="img1">
-          <img src="/assets/estacao-BBDC/carregador_BBDC.png" alt="" />
+          <img src="/assets/estacao-BDC/carregador_estação_dual.png" alt="" />
         </div>
       </ThirdSection>
 
@@ -60,9 +57,9 @@ export default function conector() {
         <div className="section4">
           <div className="list">
             <ul>
-              <li>20 kW - 40 kW</li>
-              <li>Tomada de carregamento única CCS2</li>
-              <li>Tela LCD de 9,1 polegadas</li>
+              <li>60 kW - 240 kW</li>
+              <li>2 armas (CCS1, CCS2, Chademo opcional)</li>
+              <li>Expositor</li>
             </ul>
           </div>
           <div className="vertical"></div>
@@ -72,7 +69,7 @@ export default function conector() {
           </div>
         </div>
         <div className="two">
-          <img src="/assets/estacao-BBDC/carregador_BBDC_bg.png" alt="" />
+          <img src="/assets/estacao-BDC/carregador_BDC.png" alt="" />
         </div>
         <p>
           <img src="assets/conector/next.png" alt="" />
@@ -97,27 +94,30 @@ export default function conector() {
 
       <FifthSection>
         <p>
-        A estação de carregamento Hurakall DC EV tem capacidade de cálculo e processamento de dados mais poderosa, estratégia de despacho mais inteligente, melhor desempenho de dissipação de calor e menor ruído, e atende totalmente aos requisitos de carregamento DC de alta potência de veículos com interface DC padrão global.
-        </p>
+        Estação de carregamento de 2 armas DC 60kW-240kW BENY EV carregamento rápido        </p>
       </FifthSection>
 
       <SixthSection>
         <h1>Product Parameters</h1>
-        <p>ESTAÇÃO DE RECARGA CC EV BBDC 30kW</p>
+        <p>ESTAÇÃO DE RECARGA DC BDC120-D</p>
         <table>
           <tbody>
             <tr>
-              <td>Dimensão</td>
-              <td>450*250*850(C*L*T)</td>
+              <td>Material</td>
+              <td>Aço carbono</td>
             </tr>
 
             <tr>
+              <td>Dimensão</td>
+              <td>800*800*2000(C*L*T)</td>
+            </tr>
+            <tr>
               <td>Peso</td>
-              <td>≤65kG</td>
+              <td>≤350kg</td>
             </tr>
             <tr>
               <td>Método de instalação</td>
-              <td>Montado na parede</td>
+              <td>Tipo de suporte de chão</td>
             </tr>
             <tr>
               <td>Roteamento de cabo</td>
@@ -129,7 +129,7 @@ export default function conector() {
             </tr>
             <tr>
               <td>Tomadas de carregamento</td>
-              <td>Único (CCS2/CCS2/GBT)</td>
+              <td>Duplo (CCS1+CCS1)	 Duplo (CCS2+CCS2)	Duplo (CCS1+CCS2)</td>
             </tr>
             <tr>
               <td>Autorização de conectividade</td>
@@ -149,33 +149,18 @@ export default function conector() {
             </tr>
             <tr>
               <td>Potência nominal</td>
-              <td>20KW	30KW	40 kW</td>
+              <td>60kW / 90kW / 120kW / 150kW / 180kW / 240kW</td>
             </tr>
             <tr>
               <td>Faixa de tensão de saída</td>
-              <td>CCS1/2: 150 Vcc –1000 Vcc</td>
+              <td>CCS1: 150 Vcc –1000 Vcc	CCS2: 150 Vcc –1000 Vcc	CCS1: 150 Vcc –1000 Vcc,
+              CCS2: 150 Vcc –1000 Vcc</td>
             </tr>
             <tr>
               <td>Corrente de saída</td>
-              <td>0~66,7A	0~100A	0~133A</td>
-            </tr>
-            <tr>
-              <td>Eficiência</td>
-              <td>≥95%</td>
+              <td>CCS1:0~250A	CCS2:0~250A	CCS1: 0~250A, CCS2: 0~250A</td>
             </tr>
     
-            <tr>
-              <td>Fator de potência</td>
-              <td>≥0,99 (carga: 100%)</td>
-            </tr>
-            <tr>
-              <td>Interface de usuário</td>
-              <td>Botão de parada de emergência, indicador LED, passagem de cartão, tela sensível ao toque</td>
-            </tr>
-            <tr>
-              <td>Suportes de carregamento</td>
-              <td>IEC 61851-21-2:2021;IEC 61000-6-2:2019; EN61000-6-4:2019; IEC 61851-1:2019; EN 61851-23:2014; EN 61851-24:2014</td>
-            </tr>
             <tr>
               <td>OCPP</td>
               <td>OCP 1.6</td>
@@ -186,11 +171,23 @@ export default function conector() {
             </tr>
             <tr>
               <td>Local de aplicação</td>
-              <td>Interior exterior</td>
+              <td>Interior e exterior</td>
             </tr>
             <tr>
               <td>Latitude de trabalho</td>
               <td>2000m</td>
+            </tr>
+            <tr>
+              <td>Temperatura de trabalho</td>
+              <td>-30~ +55</td>
+            </tr>
+            <tr>
+              <td>Umidade de trabalho</td>
+              <td>5%~95%</td>
+            </tr>
+            <tr>
+              <td>Nível de proteção</td>
+              <td>IP55</td>
             </tr>
             <tr>
               <td>Temperatura de trabalho</td>
@@ -209,11 +206,6 @@ export default function conector() {
               <td>Resfriamento por ar forçado</td>
             </tr>
             
-            <tr>
-              <td>Projeto de segurança</td>
-              <td>Proteção contra sobre/subtensão, proteção overlord, proteção contra vazamento de corrente,
-              proteção de aterramento, proteção contra sobretemperatura, proteção contra surtos de iluminação</td>
-            </tr>
             
           </tbody>
         </table>
