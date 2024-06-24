@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
 import Head from 'next/head';
+import Image from 'next/image'
 
 import {
   FirstSection,
@@ -160,7 +161,7 @@ export default function AsuCable() {
           viewport={{ once: true }}
           transition={{ duration: 1 }}
         >
-          <img
+          <Image
             src="/assets/images/asu-cable-imgs/asu-background-2.png"
             alt=""
           />

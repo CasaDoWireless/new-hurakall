@@ -1,6 +1,8 @@
 import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
 import Head from 'next/head';
+import Image from 'next/image'
+
 
 import {
   FirstSection,
@@ -23,7 +25,7 @@ export default function conector() {
       <Menu />
       <FirstSection>
         <div className="section1">
-          <img src="/assets/estacao-BDC/carregador_estação.png" alt="" />
+          <Image src="/assets/estacao-BDC/carregador_estação.png" alt="" />
         </div>
       </FirstSection>
 
@@ -33,7 +35,7 @@ export default function conector() {
             <p>
             ESTAÇÃO DE RECARGA DC BDC120-D</p>
           </div>
-          <img src="/assets/estacao-BDC/3 Fotos.png" alt="" />
+          <Image src="/assets/estacao-BDC/3 Fotos.png" alt="" />
           <div className="conteudo">
             <p>
             O produto possui design de proteção múltipla e função de proteção ativa, que pode monitorar todos os dados de comunicação no processo de carregamento e avisar antecipadamente todos os tipos de carregamento anormal para garantir a segurança dos usuários e veículos.</p>
@@ -49,7 +51,7 @@ export default function conector() {
         </article>
 
         <div className="img1">
-          <img src="/assets/estacao-BDC/carregador_estação_dual.png" alt="" />
+          <Image src="/assets/estacao-BDC/carregador_estação_dual.png" alt="" />
         </div>
       </ThirdSection>
 
@@ -69,25 +71,25 @@ export default function conector() {
           </div>
         </div>
         <div className="two">
-          <img src="/assets/estacao-BDC/carregador_BDC.png" alt="" />
+          <Image src="/assets/estacao-BDC/carregador_BDC.png" alt="" />
         </div>
         <p>
-          <img src="assets/conector/next.png" alt="" />
+          <Image src="assets/conector/next.png" alt="" />
           Economia de tempo - Carregamento rápido
         </p>
 
         <p>
-          <img src="assets/conector/next.png" alt="" />
+          <Image src="assets/conector/next.png" alt="" />
           Economia de energia - Alta eficiência de conversão e baixo consumo de energia em espera
         </p>
 
         <p>
-          <img src="assets/conector/next.png" alt="" />
+          <Image src="assets/conector/next.png" alt="" />
           Alta Segurança - Dupla proteção para operação manual e veículos
         </p>
 
         <p>
-          <img src="assets/conector/next.png" alt="" />
+          <Image src="assets/conector/next.png" alt="" />
           Atualização de firmware
         </p>
       </FouthSection>
@@ -216,22 +218,22 @@ export default function conector() {
           <h1>Galeria</h1>
           <div className="manufacturing-images">
             <span className="image">
-              <img src="assets/estacao-AC/1.png" alt="" />
+              <Image src="assets/estacao-AC/1.png" alt="" />
             </span>
             <span className="image">
-              <img src="assets/estacao-AC/2.png" alt="" />
+              <Image src="assets/estacao-AC/2.png" alt="" />
             </span>
             <span className="image">
-              <img src="assets/estacao-AC/3.png" alt="" />
+              <Image src="assets/estacao-AC/3.png" alt="" />
             </span>
             <span className="image">
-              <img src="assets/estacao-AC/4.jpg" alt="" />
+              <Image src="assets/estacao-AC/4.jpg" alt="" />
             </span>
             <span className="image">
-              <img src="assets/estacao-AC/5.jpg" alt="" />
+              <Image src="assets/estacao-AC/5.jpg" alt="" />
             </span>
             <span className="image">
-              <img src="assets/estacao-AC/6.png" alt="" />
+              <Image src="assets/estacao-AC/6.png" alt="" />
             </span>
           </div>
         </div>

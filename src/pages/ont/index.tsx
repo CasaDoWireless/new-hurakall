@@ -167,7 +167,7 @@ export default function Ont() {
                   </li>
                 </ul>
               </div>
-              <div className="ont-back-img">
+              <div className="ont-back-Image">
                 <motion.div
                   initial={{ opacity: 0, scale: 0.5, x: 0 }}
                   whileInView={{ opacity: 1, scale: 1, x: 0 }}
@@ -434,42 +434,42 @@ export default function Ont() {
           <h1>Manufacturing Technique</h1>
           <div className="manufacturing-images">
             <span className="image">
-              <img
+              <Image
                 style={{ margin: '5px' }}
                 src="/assets/ont/manufacturing_tech_1.png"
                 alt="Manufacturing Technique 1"
               />
             </span>
             <span className="image">
-              <img
+              <Image
                 style={{ margin: '5px' }}
                 src="/assets/ont/manufacturing_tech_2.png"
                 alt="Manufacturing Technique 2"
               />
             </span>
             <span className="image">
-              <img
+              <Image
                 style={{ margin: '5px' }}
                 src="/assets/ont/manufacturing_tech_3.png"
                 alt="Manufacturing Technique 3"
               />
             </span>
             <span className="image">
-              <img
+              <Image
                 style={{ margin: '5px' }}
                 src="/assets/ont/manufacturing_tech_4.png"
                 alt="Manufacturing Technique 4"
               />
             </span>
             <span className="image">
-              <img
+              <Image
                 style={{ margin: '5px' }}
                 src="/assets/ont/manufacturing_tech_5.png"
                 alt="Manufacturing Technique 5"
               />
             </span>
             <span className="image">
-              <img
+              <Image
                 style={{ margin: '5px' }}
                 src="/assets/ont/manufacturing_tech_6.png"
                 alt="Manufacturing Technique 6"

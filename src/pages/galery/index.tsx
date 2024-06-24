@@ -2,6 +2,7 @@ import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
 import { IoMdPlayCircle } from 'react-icons/io';
 
+
 import LogoCentral from '../../../public/assets/images/galeria/logo-white.png';
 import Image from 'next/image';
 
@@ -19,7 +20,7 @@ const MapWithNoSSR = dynamic(() => import('../../components/Map'), {
 export default function DropCable() {
   function getImgFromUrl(url: any) {
     const id = url.split('v=')[1]?.split('&')[0];
-    return `https://img.youtube.com/vi/${id}/mqdefault.jpg`;
+    return `https://Image.youtube.com/vi/${id}/mqdefault.jpg`;
   }
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -76,7 +77,7 @@ export default function DropCable() {
           <div className="manufacturing-images">
             <div className="image">
               {images.map((src, index) => (
-                <img
+                <Image
                   src={src}
                   onClick={() => openImageViewer(index)}
                   width="300"
@@ -105,7 +106,7 @@ export default function DropCable() {
                 href="https://www.youtube.com/watch?v=fcm_YW42MlE&t=2s"
               >
                 <IoMdPlayCircle />
-                <img
+                <Image alt='video'
                   src={getImgFromUrl(
                     'https://www.youtube.com/watch?v=fcm_YW42MlE&t=2s',
                   )}
@@ -118,7 +119,7 @@ export default function DropCable() {
                 href="https://www.youtube.com/watch?v=0OaOF6x4G6U"
               >
                 <IoMdPlayCircle />
-                <img
+                <Image alt='video'
                   src={getImgFromUrl(
                     'https://www.youtube.com/watch?v=0OaOF6x4G6U',
                   )}
@@ -131,7 +132,7 @@ export default function DropCable() {
                 href="https://www.youtube.com/watch?v=HQJm3kqODS4"
               >
                 <IoMdPlayCircle />
-                <img
+                <Image alt='video'
                   src={getImgFromUrl(
                     'https://www.youtube.com/watch?v=HQJm3kqODS4',
                   )}
@@ -146,7 +147,7 @@ export default function DropCable() {
                 href="https://www.youtube.com/watch?v=7pjh61mWC9Q"
               >
                 <IoMdPlayCircle />
-                <img
+                <Image alt='video'
                   src={getImgFromUrl(
                     'https://www.youtube.com/watch?v=7pjh61mWC9Q',
                   )}
@@ -159,7 +160,7 @@ export default function DropCable() {
                 href="https://www.youtube.com/watch?v=oim1lnqcjYo"
               >
                 <IoMdPlayCircle />
-                <img
+                <Image alt='video'
                   src={getImgFromUrl(
                     'https://www.youtube.com/watch?v=oim1lnqcjYo',
                   )}
@@ -172,7 +173,7 @@ export default function DropCable() {
                 href="https://www.youtube.com/watch?v=4Odv7fB98g8"
               >
                 <IoMdPlayCircle />
-                <img
+                <Image alt='video'
                   src={getImgFromUrl(
                     'https://www.youtube.com/watch?v=4Odv7fB98g8',
                   )}
@@ -187,7 +188,7 @@ export default function DropCable() {
                 href="https://www.youtube.com/watch?v=_P7ZK2cE0a8"
               >
                 <IoMdPlayCircle />
-                <img
+                <Image alt='video'
                   src={getImgFromUrl(
                     'https://www.youtube.com/watch?v=_P7ZK2cE0a8',
                   )}
@@ -200,7 +201,7 @@ export default function DropCable() {
                 href="https://www.youtube.com/watch?v=BA9Qkc9mIiM"
               >
                 <IoMdPlayCircle />
-                <img
+                <Image alt='video'
                   src={getImgFromUrl(
                     'https://www.youtube.com/watch?v=BA9Qkc9mIiM',
                   )}

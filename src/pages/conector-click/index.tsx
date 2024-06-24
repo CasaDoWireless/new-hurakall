@@ -1,6 +1,7 @@
 import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
 import Head from 'next/head';
+import Image from 'next/image'
 
 import {
   FirstSection,
@@ -23,7 +24,7 @@ export default function conector() {
       <Menu />
       <FirstSection>
         <div className="section1">
-          <img src="assets/conector/bannerconector.png" alt="" />
+          <Image src="assets/conector/bannerconector.png" alt="" />
         </div>
       </FirstSection>
 
@@ -32,7 +33,7 @@ export default function conector() {
           <div className="title">
             <p>CONECTOR HURAKALL FAST CLICK SC/APC ou UPC</p>
           </div>
-          <img src="/assets/conector/FOTOPICADO.png" alt="" />
+          <Image src="/assets/conector/FOTOPICADO.png" alt="" />
           <div className="conteudo">
             <p>
               Projetado para cabos drop de até 3mm de espessura, pode ser
@@ -53,10 +54,10 @@ export default function conector() {
         </article>
 
         <div className="img1">
-          <img src="assets/conector/FOTOCONECTOR1.png" alt="" />
+          <Image src="assets/conector/FOTOCONECTOR1.png" alt="" />
         </div>
         <div className="img2">
-          <img src="assets/conector/FOTOCONECTOR2.png" alt="" />
+          <Image src="assets/conector/FOTOCONECTOR2.png" alt="" />
         </div>
       </ThirdSection>
 
@@ -72,31 +73,31 @@ export default function conector() {
           <div className="vertical"></div>
           <div className="premium">
             <h1>The best connector in the world.</h1>
-            <img src="assets/conector/premium.png" alt="" />
+            <Image src="assets/conector/premium.png" alt="" />
           </div>
         </div>
         <div className="two">
-          <img src="assets/conector/ferrolho.png" alt="" />
+          <Image src="assets/conector/ferrolho.png" alt="" />
         </div>
         <p>
-          <img src="assets/conector/next.png" alt="" />
+          <Image src="assets/conector/next.png" alt="" />
           Corpoem material termo plástico e ferrolho em cerâmica(zircônica).
         </p>
 
         <p>
-          <img src="assets/conector/next.png" alt="" />
+          <Image src="assets/conector/next.png" alt="" />
           Reutilizável até 5 vezes desde que mantido as características de
           inserção.
         </p>
 
         <p>
-          <img src="assets/conector/next.png" alt="" />
+          <Image src="assets/conector/next.png" alt="" />
           Possuem um polimento adequado que garante o alto desempenho na
           transmissão de dados.
         </p>
 
         <p>
-          <img src="assets/conector/next.png" alt="" />
+          <Image src="assets/conector/next.png" alt="" />
           Eliminam a necessidade de ferramentas especiais, aplicação de epóxis
           ou polimento.
         </p>
@@ -181,22 +182,22 @@ export default function conector() {
           <h1>Production Workshop</h1>
           <div className="manufacturing-images">
             <span className="image">
-              <img src="assets/conector/szhet.png" alt="" />
+              <Image src="assets/conector/szhet.png" alt="" />
             </span>
             <span className="image">
-              <img src="assets/conector/dsgs.png" alt="" />
+              <Image src="assets/conector/dsgs.png" alt="" />
             </span>
             <span className="image">
-              <img src="assets/conector/dsg.png" alt="" />
+              <Image src="assets/conector/dsg.png" alt="" />
             </span>
             <span className="image">
-              <img src="assets/conector/dsfg.png" alt="" />
+              <Image src="assets/conector/dsfg.png" alt="" />
             </span>
             <span className="image">
-              <img src="assets/conector/dgdg.png" alt="" />
+              <Image src="assets/conector/dgdg.png" alt="" />
             </span>
             <span className="image">
-              <img src="assets/conector/6.png" alt="" />
+              <Image src="assets/conector/6.png" alt="" />
             </span>
           </div>
         </div>

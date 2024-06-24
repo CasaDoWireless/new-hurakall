@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
+
+
 import Head from 'next/head';
 import rotea from '../../../public/assets/images/roteador/rotea.png';
 import foto4 from '../../../public/assets/images/roteador/foto4.png';
@@ -118,7 +120,7 @@ export default function Router() {
 
           <div className="ont-back-section">
             <div className="ont-back-container">
-              <div className="ont-back-img">
+              <div className="ont-back-Image">
                 <motion.div
                   initial={{ opacity: 0, scale: 0.5, x: 0 }}
                   whileInView={{ opacity: 1, scale: 1, x: 0 }}
@@ -319,37 +321,37 @@ export default function Router() {
           <h1>Manufacturing Technique</h1>
           <div className="manufacturing-images">
             <span className="image">
-              <img
+              <Image alt='video'
                 src="/assets/ont/manufacturing_tech_1.png"
                 style={{ margin: '5px' }}
               />
             </span>
             <span className="image">
-              <img
+              <Image alt='video'
                 src="/assets/ont/manufacturing_tech_2.png"
                 style={{ margin: '5px' }}
               />
             </span>
             <span className="image">
-              <img
+              <Image alt='video'
                 src="/assets/ont/manufacturing_tech_3.png"
                 style={{ margin: '5px' }}
               />
             </span>
             <span className="image">
-              <img
+              <Image alt='video'
                 src="/assets/ont/manufacturing_tech_4.png"
                 style={{ margin: '5px' }}
               />
             </span>
             <span className="image">
-              <img
+              <Image alt='video'
                 src="/assets/ont/manufacturing_tech_5.png"
                 style={{ margin: '5px' }}
               />
             </span>
             <span className="image">
-              <img
+              <Image alt='video'
                 src="/assets/ont/manufacturing_tech_6.png"
                 style={{ margin: '5px' }}
               />
