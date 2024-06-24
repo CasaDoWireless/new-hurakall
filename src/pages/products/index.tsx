@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { motion } from 'framer-motion';
 
 
-import Image from 'next/image';
+//import img from 'next/image';
 import ONT from '../../../public/assets/home/produtos_home/ont.png';
 import Roteador from '../../../public/assets/home/produtos_home/roteador.png';
 import Drop from '../../../public/assets/home/produtos_home/drop.png';
@@ -155,7 +155,7 @@ const Products: NextPage = () => {
                     transition={{ duration: 1, delay: 0.35 }}
                     viewport={{ once: true }}
                   >
-                    <Image src={Chip} alt="chip" />
+                    <img src={Chip} alt="chip" />
                   </motion.div>
 
                   <motion.div
@@ -164,7 +164,7 @@ const Products: NextPage = () => {
                     transition={{ duration: 1, delay: 0.5 }}
                     viewport={{ once: true }}
                   >
-                    <Image src={Warranty} alt="garantia" />
+                    <img src={Warranty} alt="garantia" />
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0 }}
@@ -172,7 +172,7 @@ const Products: NextPage = () => {
                     transition={{ duration: 1, delay: 0.65 }}
                     viewport={{ once: true }}
                   >
-                    <Image src={Support} alt="suporte" />
+                    <img src={Support} alt="suporte" />
                   </motion.div>
                 </figure>
               </main>
@@ -184,8 +184,8 @@ const Products: NextPage = () => {
               viewport={{ once: true }}
             >
               <section>
-                <Image
-                  src="/assets/images/products-Image/prod-banner1.png"
+                <img
+                  src="/assets/images/products-img/prod-banner1.png"
                   alt=""
                 />
               </section>
@@ -208,7 +208,7 @@ const Products: NextPage = () => {
               <Link key={idx} href={product.nav}>
                 <div>
                   <figure>
-                    <Image src={product.image} alt={product.imageDescription} />
+                    <img src={product.image} alt={product.imageDescription} />
                   </figure>
                   <p>{product.title}</p>
                 </div>
