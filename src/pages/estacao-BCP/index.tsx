@@ -1,7 +1,7 @@
 import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
 import Head from 'next/head';
-import Image from 'next/image';
+//import img from 'next/image';
 
 
 import {
@@ -25,7 +25,7 @@ export default function conector() {
       <Menu />
       <FirstSection>
         <div className="section1">
-          <Image src="/assets/estacao-BCP/carregador_bcp-AT2n.png" alt="" />
+          <img src="/assets/estacao-BCP/carregador_bcp-AT2n.png" alt="" />
         </div>
       </FirstSection>
 
@@ -35,7 +35,7 @@ export default function conector() {
             <p>
             ESTAÇÃO DE RECARGA BCP-CT2N-P AC 22kM</p>
           </div>
-          <Image src="/assets/estacao-BCP/3 Fotos.jpg" alt="" />
+          <img src="/assets/estacao-BCP/3 Fotos.jpg" alt="" />
           <div className="conteudo">
             <p>
             Carregador Hurakall Smart EV Tipo 2 com cabo IP65 Estação de carregamento de veículos elétricos EV Wallbox com certificação CE
@@ -56,7 +56,7 @@ A personalização de todos os tipos de conectores de carregamento torna-o altam
         </article>
 
         <div className="img1">
-          <Image src="/assets/estacao-BCP/carregador_bcp-AT2n_dual.png" alt="" />
+          <img src="/assets/estacao-BCP/carregador_bcp-AT2n_dual.png" alt="" />
         </div>
       </ThirdSection>
 
@@ -76,25 +76,25 @@ A personalização de todos os tipos de conectores de carregamento torna-o altam
           </div>
         </div>
         <div className="two">
-          <Image src="/assets/estacao-BCP/carregador_BCP.png" alt="" />
+          <img src="/assets/estacao-BCP/carregador_BCP.png" alt="" />
         </div>
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Personalize todos os tipos de conectores
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Protocolo de ponto de carregamento aberto (opcional)
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Visualize dados e status de cobrança
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Atualização de firmware
         </p>
       </FouthSection>
@@ -243,23 +243,23 @@ A personalização de todos os tipos de conectores de carregamento torna-o altam
         <div className="container">
           <h1>Galeria</h1>
           <div className="manufacturing-images">
-            <span className="Image">
-              <Image src="assets/estacao-AC/1.png" alt="" />
+            <span className="img">
+              <img src="assets/estacao-AC/1.png" alt="" />
             </span>
-            <span className="Image">
-              <Image src="assets/estacao-AC/2.png" alt="" />
+            <span className="img">
+              <img src="assets/estacao-AC/2.png" alt="" />
             </span>
-            <span className="Image">
-              <Image src="assets/estacao-AC/3.png" alt="" />
+            <span className="img">
+              <img src="assets/estacao-AC/3.png" alt="" />
             </span>
-            <span className="Image">
-              <Image src="assets/estacao-AC/4.jpg" alt="" />
+            <span className="img">
+              <img src="assets/estacao-AC/4.jpg" alt="" />
             </span>
-            <span className="Image">
-              <Image src="assets/estacao-AC/5.jpg" alt="" />
+            <span className="img">
+              <img src="assets/estacao-AC/5.jpg" alt="" />
             </span>
-            <span className="Image">
-              <Image src="assets/estacao-AC/6.png" alt="" />
+            <span className="img">
+              <img src="assets/estacao-AC/6.png" alt="" />
             </span>
           </div>
         </div>
