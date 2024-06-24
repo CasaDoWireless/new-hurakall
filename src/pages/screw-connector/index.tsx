@@ -1,7 +1,7 @@
 import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
 import Head from 'next/head';
-import Image from 'next/image'
+//import img from 'next/image'
 
 
 import {
@@ -32,7 +32,7 @@ export default function screw() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <Image src="assets/screw-connector/FOTO.png" alt="" />
+            <img src="assets/screw-connector/FOTO.png" alt="" />
           </motion.div>
         </div>
       </FirstSection>
@@ -47,7 +47,7 @@ export default function screw() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 1 }}
           >
-            <Image src="/assets/screw-connector/FOTO-PICADO.png" alt="" />
+            <img src="/assets/screw-connector/FOTO-PICADO.png" alt="" />
           </motion.div>
           <div className="conteudo">
             <p>
@@ -73,7 +73,7 @@ export default function screw() {
           transition={{ duration: 1, delay: 0.3 }}
         >
           <div className="img1">
-            <Image src="assets/screw-connector/CONECTOR1.png" alt="" />
+            <img src="assets/screw-connector/CONECTOR1.png" alt="" />
           </div>
         </motion.div>
         <motion.div
@@ -82,7 +82,7 @@ export default function screw() {
           transition={{ duration: 1, delay: 0.2 }}
         >
           <div className="img2">
-            <Image src="assets/screw-connector/CONECTOR2.png" alt="" />
+            <img src="assets/screw-connector/CONECTOR2.png" alt="" />
           </div>
         </motion.div>
       </ThirdSection>
@@ -99,7 +99,7 @@ export default function screw() {
           <div className="vertical"></div>
           <div className="premium">
             <h1>The best connector in the world.</h1>
-            <Image src="assets/conector/premium.png" alt="" />
+            <img src="assets/conector/premium.png" alt="" />
           </div>
         </div>
         <motion.div
@@ -108,28 +108,28 @@ export default function screw() {
           transition={{ duration: 1, delay: 0.2 }}
         >
           <div className="two">
-            <Image src="assets/conector/ferrolho.png" alt="" />
+            <img src="assets/conector/ferrolho.png" alt="" />
           </div>
         </motion.div>
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Corpoem material termo plástico e ferrolho em cerâmica(zircônica).
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Reutilizável até 5 vezes desde que mantido as características de
           inserção.
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Possuem um polimento adequado que garante o alto desempenho na
           transmissão de dados.
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Eliminam a necessidade de ferramentas especiais, aplicação de epóxis
           ou polimento.
         </p>
@@ -214,27 +214,27 @@ export default function screw() {
           <h1>Production Workshop</h1>
           <div className="manufacturing-images">
             <span className="image">
-              <Image src="assets/conector/szhet.png" alt="" />
+              <img src="assets/conector/szhet.png" alt="" />
             </span>
 
             <span className="image">
-              <Image src="assets/conector/dsgs.png" alt="" />
+              <img src="assets/conector/dsgs.png" alt="" />
             </span>
 
             <span className="image">
-              <Image src="assets/conector/6.png" alt="" />
+              <img src="assets/conector/6.png" alt="" />
             </span>
 
             <span className="image">
-              <Image src="assets/conector/dgdg.png" alt="" />
+              <img src="assets/conector/dgdg.png" alt="" />
             </span>
 
             <span className="image">
-              <Image src="assets/conector/dsfg.png" alt="" />
+              <img src="assets/conector/dsfg.png" alt="" />
             </span>
 
             <span className="image">
-              <Image src="assets/conector/dsg.png" alt="" />
+              <img src="assets/conector/dsg.png" alt="" />
             </span>
           </div>
         </div>
