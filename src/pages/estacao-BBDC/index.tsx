@@ -1,7 +1,7 @@
 import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
 import Head from 'next/head';
-import Image from 'next/image'
+//import img from 'next/image'
 
 
 import {
@@ -25,7 +25,7 @@ export default function conector() {
       <Menu />
       <FirstSection>
         <div className="section1">
-          <Image src="/assets/estacao-BBDC/carregador_CCDC.png" alt="" />
+          <img src="/assets/estacao-BBDC/carregador_CCDC.png" alt="" />
         </div>
       </FirstSection>
 
@@ -35,7 +35,7 @@ export default function conector() {
             <p>
             ESTAÇÃO DE RECARGA CC EV Hurakall 30kW</p>
           </div>
-          <Image src="/assets/estacao-BBDC/3 Fotos.jpg" alt="" />
+          <img src="/assets/estacao-BBDC/3 Fotos.jpg" alt="" />
           <div className="conteudo">
             <p>
             Estação de carregamento Hurakall EV Carregamento rápido, economia de tempo e energia, alta segurança
@@ -54,7 +54,7 @@ export default function conector() {
         </article>
 
         <div className="Image1">
-          <Image src="/assets/estacao-BBDC/carregador_BBDC.png" alt="" />
+          <img src="/assets/estacao-BBDC/carregador_BBDC.png" alt="" />
         </div>
       </ThirdSection>
 
@@ -74,25 +74,25 @@ export default function conector() {
           </div>
         </div>
         <div className="two">
-          <Image src="/assets/estacao-BBDC/carregador_BBDC_bg.png" alt="" />
+          <img src="/assets/estacao-BBDC/carregador_BBDC_bg.png" alt="" />
         </div>
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Economia de tempo - Carregamento rápido
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Economia de energia - Alta eficiência de conversão e baixo consumo de energia em espera
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Alta Segurança - Dupla proteção para operação manual e veículos
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Atualização de firmware
         </p>
       </FouthSection>
@@ -226,22 +226,22 @@ export default function conector() {
           <h1>Galeria</h1>
           <div className="manufacturing-images">
             <span className="image">
-              <Image src="assets/estacao-AC/1.png" alt="" />
+              <img src="assets/estacao-AC/1.png" alt="" />
             </span>
             <span className="image">
-              <Image src="assets/estacao-AC/2.png" alt="" />
+              <img src="assets/estacao-AC/2.png" alt="" />
             </span>
             <span className="image">
-              <Image src="assets/estacao-AC/3.png" alt="" />
+              <img src="assets/estacao-AC/3.png" alt="" />
             </span>
             <span className="image">
-              <Image src="assets/estacao-AC/4.jpg" alt="" />
+              <img src="assets/estacao-AC/4.jpg" alt="" />
             </span>
             <span className="image">
-              <Image src="assets/estacao-AC/5.jpg" alt="" />
+              <img src="assets/estacao-AC/5.jpg" alt="" />
             </span>
             <span className="image">
-              <Image src="assets/estacao-AC/6.png" alt="" />
+              <img src="assets/estacao-AC/6.png" alt="" />
             </span>
           </div>
         </div>
