@@ -185,7 +185,7 @@ const Products: NextPage = () => {
             >
               <section>
                 <Image
-                  src="/assets/images/products-Image/prod-banner1.png"
+                  src="/assets/images/products-image/prod-banner1.png"
                   alt=""
                 />
               </section>
