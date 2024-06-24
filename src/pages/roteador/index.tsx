@@ -4,28 +4,28 @@ import { motion } from 'framer-motion';
 
 
 import Head from 'next/head';
-import rotea from '../../../public/assets/images/roteador/rotea.png';
-import foto4 from '../../../public/assets/images/roteador/foto4.png';
+import rotea from '../../../public/assets/images/Roteador/rotea.png';
+import foto4 from '../../../public/assets/images/Roteador/foto4.png';
 import Globe from '../../../public/assets/ont/globe.png';
 import ImageIcon from '../../../public/assets/ont/image.png';
 import Mail from '../../../public/assets/ont/mail.png';
 import Console from '../../../public/assets/ont/console.png';
 import Film from '../../../public/assets/ont/film.png';
 import UpDown from '../../../public/assets/ont/up_down.png';
-import roteador2 from '../../../public/assets/images/roteador/roteador2.png';
-import x5 from '../../../public/assets/images/roteador/x5.png';
-import coffe from '../../../public/assets/images/roteador/coffe.png';
-import conector from '../../../public/assets/images/roteador/conector.png';
-import arrow from '../../../public/assets/images/roteador/arrow.png';
-import jumping from '../../../public/assets/images/roteador/jumping.png';
-import cloud from '../../../public/assets/images/roteador/cloud.png';
-import uparrow from '../../../public/assets/images/roteador/uparrow.png';
-import wifi from '../../../public/assets/images/roteador/wifi.png';
-import icon from '../../../public/assets/images/roteador/icon.png';
+import roteador2 from '../../../public/assets/images/Roteador/roteador2.png';
+import x5 from '../../../public/assets/images/Roteador/x5.png';
+import coffe from '../../../public/assets/images/Roteador/coffe.png';
+import conector from '../../../public/assets/images/Roteador/conector.png';
+import arrow from '../../../public/assets/images/Roteador/arrow.png';
+import jumping from '../../../public/assets/images/Roteador/jumping.png';
+import cloud from '../../../public/assets/images/Roteador/cloud.png';
+import uparrow from '../../../public/assets/images/Roteador/uparrow.png';
+import wifi from '../../../public/assets/images/Roteador/wifi.png';
+import icon from '../../../public/assets/images/Roteador/icon.png';
 import Smartphone from '../../../public/assets/ont/smartphone.png';
 import Tv from '../../../public/assets/ont/tv.png';
 
-import FOTO from '../../../public/assets/images/roteador/FOTO.png';
+import FOTO from '../../../public/assets/images/Roteador/FOTO.png';
 
 import FirstSection from './styles/FirstSection';
 import SecondSection from './styles/SecondSection';
