@@ -35,8 +35,8 @@ import acess7 from '../../../public/assets/fusion-machine/acess7.png';
 import acess8 from '../../../public/assets/fusion-machine/acess8.png';
 import acess9 from '../../../public/assets/fusion-machine/acess9.png';
 import acess10 from '../../../public/assets/fusion-machine/acess10.png';
-import desenho1 from '../../../public/assets/fusion-machine/desenho1.png';
-import desenho2 from '../../../public/assets/fusion-machine/desenho2.png';
+import desenho1 from '../../../public/assets/fusion-machine/DESENHO1.png';
+import desenho2 from '../../../public/assets/fusion-machine/DESENHO2.png';
 
 const specialChar = {
   aspas: '"',

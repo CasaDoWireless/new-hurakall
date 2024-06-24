@@ -21,9 +21,9 @@ import carregadorAC from '../../../public/assets/home/produtos_home/carregador_A
 
 
 //----------------------------------------------------------------
-import Warranty from '../../../public/assets/images/products-Image/prod-banner2-icon2.png';
-import Chip from '../../../public/assets/images/products-Image/prod-banner2-icon1.png';
-import Support from '../../../public/assets/images/products-Image/prod-banner2-icon3.png';
+import Warranty from '../../../public/assets/images/products-image/prod-banner2-icon2.png';
+import Chip from '../../../public/assets/images/products-image/prod-banner2-icon1.png';
+import Support from '../../../public/assets/images/products-image/prod-banner2-icon3.png';
 
 import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
