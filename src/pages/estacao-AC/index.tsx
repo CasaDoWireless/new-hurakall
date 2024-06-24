@@ -1,7 +1,7 @@
 import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
 import Head from 'next/head';
-import Image from 'next/image'
+//import img from 'next/image'
 
 
 import {
@@ -25,7 +25,7 @@ export default function conector() {
       <Menu />
       <FirstSection>
         <div className="section1">
-          <Image src="/assets/estacao-AC/carregador_AC_BCP_edit.png" alt="" />
+          <img src="/assets/estacao-AC/carregador_AC_BCP_edit.png" alt="" />
         </div>
       </FirstSection>
 
@@ -35,7 +35,7 @@ export default function conector() {
             <p>
             ESTAÇÃO DE RECARGA AC BCP-CT2N-P SOLO</p>
           </div>
-          <Image src="/assets/estacao-AC/carregador_AC_BCP_edit_1.jpg" alt="" />
+          <img src="/assets/estacao-AC/carregador_AC_BCP_edit_1.jpg" alt="" />
           <div className="conteudo">
             <p>
             Melhore a sua experiência de carregamento com o carregador AC EV montado no chão HURAKALL. Experimente uma interação sem esforço com sua interface de tela LCD de 5,0 polegadas. Assuma o controle do seu carregador por meio de um aplicativo inteligente e várias opções de conectividade.
@@ -54,7 +54,7 @@ A personalização de todos os tipos de conectores de carregamento torna-o altam
         </article>
 
         <div className="img1">
-          <Image src="/assets/estacao-AC/carregador_AC_BCP_edit.png" alt="" />
+          <img src="/assets/estacao-AC/carregador_AC_BCP_edit.png" alt="" />
         </div>
       </ThirdSection>
 
@@ -74,25 +74,25 @@ A personalização de todos os tipos de conectores de carregamento torna-o altam
           </div>
         </div>
         <div className="two">
-          <Image src="/assets/estacao-AC/foto_AC.png" alt="" />
+          <img src="/assets/estacao-AC/foto_AC.png" alt="" />
         </div>
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Iniciar/parar carregamento remotamente.
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Configuração de tempo de carregamento
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Medição e relatórios de eletricidade
         </p>
 
         <p>
-          <Image src="assets/conector/next.png" alt="" />
+          <img src="assets/conector/next.png" alt="" />
           Atualização de firmware
         </p>
       </FouthSection>
@@ -208,22 +208,22 @@ A personalização de todos os tipos de conectores de carregamento torna-o altam
           <h1>Galeria</h1>
           <div className="manufacturing-images">
             <span className="image">
-              <Image src="assets/estacao-AC/1.png" alt="" />
+              <img src="assets/estacao-AC/1.png" alt="" />
             </span>
             <span className="image">
-              <Image src="assets/estacao-AC/2.png" alt="" />
+              <img src="assets/estacao-AC/2.png" alt="" />
             </span>
             <span className="image">
-              <Image src="assets/estacao-AC/3.png" alt="" />
+              <img src="assets/estacao-AC/3.png" alt="" />
             </span>
             <span className="image">
-              <Image src="assets/estacao-AC/4.jpg" alt="" />
+              <img src="assets/estacao-AC/4.jpg" alt="" />
             </span>
             <span className="image">
-              <Image src="assets/estacao-AC/5.jpg" alt="" />
+              <img src="assets/estacao-AC/5.jpg" alt="" />
             </span>
             <span className="image">
-              <Image src="assets/estacao-AC/6.png" alt="" />
+              <img src="assets/estacao-AC/6.png" alt="" />
             </span>
           </div>
         </div>
