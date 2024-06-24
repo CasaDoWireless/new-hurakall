@@ -3,7 +3,7 @@ import Menu from '../../components/Menu/Menu';
 import { CgArrowRightR } from 'react-icons/cg';
 import Head from 'next/head';
 
-import Image from 'next/image'
+//import img from 'next/image'
 
 import {
   FirstSection,
@@ -25,7 +25,7 @@ export default function Cleaver() {
       <Menu />
       <FirstSection>
         <div className="section1">
-          <Image src="assets/clivador/FOTO.png" alt="Cabo óptico drop" />
+          <img src="assets/clivador/FOTO.png" alt="Cabo óptico drop" />
         </div>
       </FirstSection>
 
@@ -58,7 +58,7 @@ export default function Cleaver() {
 
         <CgArrowRightR size={50} />
 
-        <Image
+        <img
           src="assets/clivador/cli.png"
           alt="Ilustração de um cabo contorcido, o que gera atenuação"
         />
@@ -123,14 +123,14 @@ export default function Cleaver() {
 
       <FifthSection>
         <div>
-          <Image src="assets/clivador/ERETR.png" alt="" />
+          <img src="assets/clivador/ERETR.png" alt="" />
         </div>
-        <Image src="/assets/clivador/foto1.png" alt="" />
-        <Image src="/assets/clivador/foto2.png" alt="" />
+        <img src="/assets/clivador/foto1.png" alt="" />
+        <img src="/assets/clivador/foto2.png" alt="" />
       </FifthSection>
 
       <SixthSection>
-        <Image src="/assets/images/logo.png" alt="" className="Image-logo" />
+        <img src="/assets/images/logo.png" alt="" className="img-logo" />
         <p>By Storm</p>
       </SixthSection>
 
