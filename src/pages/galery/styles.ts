@@ -20,9 +20,9 @@ export const FirstSection = styled.section`
     height: 100%;
   }
 
-  img {
-    height: 25rem;
-    width: 10rem;
+  .img1 {
+    height: 10rem;
+    width: 50rem;
     margin-top: 4rem;
     z-index: 2;
   }
@@ -32,20 +32,20 @@ export const FirstSection = styled.section`
     justify-content: center;
     padding: 5rem 0;
 
-    img {
+    .img1 {
       height: 25rem;
     }
   }
 
   @media screen and (max-width: 600px) {
-    img {
-      height: 17rem;
+    .img1 {
+      height: 16rem;
     }
   }
 
   @media screen and (max-width: 500px) {
-    img {
-      height: 14rem;
+    .img1 {
+      height: 10rem;
     }
   }
 `;
