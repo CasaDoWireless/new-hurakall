@@ -130,6 +130,7 @@ const Products: NextPage = () => {
       <Menu />
 
       <FirstSection>
+        //---------------------------------------------------------------- ONT
         <div>
           <article>
             <section>
@@ -186,6 +187,69 @@ const Products: NextPage = () => {
               <section>
                 <img
                   src="/assets/images/products-image/prod-banner1.png"
+                  alt=""
+                />
+              </section>
+            </motion.div>
+          </article>
+        </div>
+        //---------------------------------------------------------------- CARREGADORES
+        <div>
+          <article>
+            <section>
+              <motion.div
+                initial={{ opacity: 0, x: -60 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1, delay: 0.2 }}
+                viewport={{ once: true }}
+              >
+                <header>
+                  <h1>ESTAÇÃO DE RECARGA DC BDC120-D</h1>
+                  <p>
+                  60kW e 120kW <br />
+                  com 2 conectores
+                  </p>
+                </header>
+              </motion.div>
+              <main>
+                <figure className="icons">
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.35 }}
+                    viewport={{ once: true }}
+                  >
+                    <Image src={Chip} alt="chip" />
+                  </motion.div>
+
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.5 }}
+                    viewport={{ once: true }}
+                  >
+                    <Image src={Warranty} alt="garantia" />
+                  </motion.div>
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.65 }}
+                    viewport={{ once: true }}
+                  >
+                    <Image src={Support} alt="suporte" />
+                  </motion.div>
+                </figure>
+              </main>
+            </section>
+            <motion.div
+              initial={{ opacity: 0, x: 60 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
+            >
+              <section>
+                <img className='img1'
+                  src="/assets/home/produtos_home/carregador_estação1.png"
                   alt=""
                 />
               </section>

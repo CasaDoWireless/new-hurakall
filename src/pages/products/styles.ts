@@ -29,6 +29,10 @@ export const FirstSection = styled.section`
           width: 25rem;
         }
 
+        .img1{
+          width: 35rem;
+        }
+
         header {
           max-width: 25rem;
           h1 {
