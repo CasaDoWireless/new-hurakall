@@ -184,7 +184,7 @@ const Products: NextPage = () => {
               viewport={{ once: true }}
             >
               <section>
-                <Image
+                <img
                   src="/assets/images/products-image/prod-banner1.png"
                   alt=""
                 />
