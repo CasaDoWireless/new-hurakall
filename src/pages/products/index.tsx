@@ -130,7 +130,7 @@ const Products: NextPage = () => {
       <Menu />
 
       <FirstSection>
-        //---------------------------------------------------------------- ONT
+        
         <div>
           <article>
             <section>
@@ -193,7 +193,7 @@ const Products: NextPage = () => {
             </motion.div>
           </article>
         </div>
-        //---------------------------------------------------------------- CARREGADORES
+        
         <div>
           <article>
             <section>
