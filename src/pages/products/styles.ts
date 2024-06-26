@@ -244,6 +244,7 @@ export const SecondSection = styled.section`
         div {
           width: 25rem;
           height: 25rem;
+          margin-bottom: 30rem;
 
           p {
             font-size: 1.2rem;
