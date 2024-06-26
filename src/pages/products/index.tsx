@@ -19,8 +19,6 @@ import carregadorAC from '../../../public/assets/home/produtos_home/carregador_A
 
 //import slider
 import carregador1 from '../../../public/assets/home/slider/slider_carregador.png';
-import carregadores from '../../../public/assets/home/slider/slider_carregadores.png';
-import led from '../../../public/assets/home/slider/slider_led.png';
 
 
 
@@ -28,6 +26,10 @@ import led from '../../../public/assets/home/slider/slider_led.png';
 import Warranty from '../../../public/assets/images/products-image/prod-banner2-icon2.png';
 import Chip from '../../../public/assets/images/products-image/prod-banner2-icon1.png';
 import Support from '../../../public/assets/images/products-image/prod-banner2-icon3.png';
+
+import conector from '../../../public/assets/images/products-image/prod-banner2-icon4.png';
+import charge from '../../../public/assets/images/products-image/prod-banner2-icon5.png';
+import rfid from '../../../public/assets/images/products-image/prod-banner2-icon6.png';
 
 import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
@@ -130,9 +132,6 @@ const Products: NextPage = () => {
 
   const carouselImages = [
     { src: carregador1, alt: 'carregadores' },
-    { src: carregadores, alt: 'carregadores' },
-    { src: led, alt: 'carregadores' },
-
   ];
 
   return (
@@ -272,7 +271,7 @@ const Products: NextPage = () => {
                     transition={{ duration: 1, delay: 0.35 }}
                     viewport={{ once: true }}
                   >
-                    <Image src={Chip} alt="chip" />
+                    <Image src={conector} alt="chip" />
                   </motion.div>
 
                   <motion.div
@@ -281,7 +280,7 @@ const Products: NextPage = () => {
                     transition={{ duration: 1, delay: 0.5 }}
                     viewport={{ once: true }}
                   >
-                    <Image src={Warranty} alt="garantia" />
+                    <Image src={charge} alt="garantia" />
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0 }}
@@ -289,7 +288,7 @@ const Products: NextPage = () => {
                     transition={{ duration: 1, delay: 0.65 }}
                     viewport={{ once: true }}
                   >
-                    <Image src={Support} alt="suporte" />
+                    <Image src={rfid} alt="suporte" />
                   </motion.div>
                 </figure>
               </main>
@@ -313,9 +312,11 @@ const Products: NextPage = () => {
         <article>
           <header>
             <h1>
-              Nossa missão é fornecer os produtos mais avançados com
-              estabilidade e qualidade confiável e bom serviço para nossos
-              clientes.
+            Soluções completas 
+de recarga rápida e ultrarápida em 
+residências, <br /> estações de serviço 
+e rodovias.
+
             </h1>
           </header>
           <main>
@@ -334,15 +335,6 @@ const Products: NextPage = () => {
       </SecondSection> 
     </FirstSection>
 
-      <div style={{ padding: '0px', textAlign: 'center', maxWidth: '100%', margin: 'auto' }}>
-    <Carousel showThumbs={false} autoPlay infiniteLoop>
-      {carouselImages.map((image, idx) => (
-        <div key={idx} >
-          <Image src={image.src} alt={image.alt} layout="responsive" height={250} width={600} />
-        </div>
-      ))}
-    </Carousel>
-      </div>        
 
       
 
