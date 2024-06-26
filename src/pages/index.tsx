@@ -127,7 +127,7 @@ const Home: NextPage = () => {
       <Banner>
         <span>
           <Image src={LogoCentral} alt="Banner" />
-          <h2>Simples Solutions for Complex Connections</h2>
+          <h2>Simple Solutions for Complex Connections</h2>
         </span>
       </Banner>
 
