@@ -94,7 +94,10 @@ const Products: NextPage = () => {
       image: ConectorClip,
       imageDescription: 'ConectorClip',
       nav: '/conector-click',
-    },
+    }
+  ];
+
+  const products2 = [
     {
       title: 'ESTAÇÃO DE RECARGA BCP-CT2N-P AC 22kM',
       description: '22kW - 2 conectores - 5M DE CABO',
@@ -141,8 +144,9 @@ const Products: NextPage = () => {
       </Head>
 
       <Menu />
-
+ 
       <FirstSection>
+        {/* sessão de FTTH */}
         {/* Primeira Seção */}
         <div>
           <article>
@@ -206,7 +210,42 @@ const Products: NextPage = () => {
             </motion.div>
           </article>
         </div>
+        <SecondSection>
+        <article>
+          <header>
+            <h1>
+              Nossa missão é fornecer os produtos mais avançados com
+              estabilidade e qualidade confiável e bom serviço para nossos
+              clientes.
+            </h1>
+          </header>
+          <main>
+            {products.map((product, idx) => (
+              <Link key={idx} href={product.nav}>
+                <div>
+                  <figure>
+                    <Image src={product.image} alt={product.imageDescription} />
+                  </figure>
+                  <p>{product.title}</p>
+                </div>
+              </Link>
+            ))}
+          </main>
+        </article>
+      </SecondSection>
+      </FirstSection>
+            <div style={{ padding: '0px', textAlign: 'center', maxWidth: '100%', margin: 'auto' }}>
+        <Carousel showThumbs={false} autoPlay infiniteLoop>
+          {carouselImages.map((image, idx) => (
+            <div key={idx} >
+              <Image src={image.src} alt={image.alt} layout="responsive" height={250} width={600} />
+            </div>
+          ))}
+        </Carousel>
+          </div>
 
+    <FirstSection>
+      {/* sessão de carregadores*/}
         {/* Segunda Seção */}
         <div>
           <article>
@@ -270,19 +309,7 @@ const Products: NextPage = () => {
             </motion.div>
           </article>
         </div>
-      </FirstSection>
-
-      <div style={{ padding: '0px', textAlign: 'center', maxWidth: '100%', margin: 'auto' }}>
-  <Carousel showThumbs={false} autoPlay infiniteLoop>
-    {carouselImages.map((image, idx) => (
-      <div key={idx} >
-        <Image src={image.src} alt={image.alt} layout="responsive" height={250} width={600} />
-      </div>
-    ))}
-  </Carousel>
-    </div>
-    
-      <SecondSection>
+        <SecondSection>
         <article>
           <header>
             <h1>
@@ -292,19 +319,30 @@ const Products: NextPage = () => {
             </h1>
           </header>
           <main>
-            {products.map((product, idx) => (
-              <Link key={idx} href={product.nav}>
+            {products2.map((product2, idx) => (
+              <Link key={idx} href={product2.nav}>
                 <div>
                   <figure>
-                    <Image src={product.image} alt={product.imageDescription} />
+                    <Image src={product2.image} alt={product2.imageDescription} />
                   </figure>
-                  <p>{product.title}</p>
+                  <p>{product2.title}</p>
                 </div>
               </Link>
             ))}
           </main>
         </article>
-      </SecondSection>
+      </SecondSection> 
+    </FirstSection>
+
+      <div style={{ padding: '0px', textAlign: 'center', maxWidth: '100%', margin: 'auto' }}>
+    <Carousel showThumbs={false} autoPlay infiniteLoop>
+      {carouselImages.map((image, idx) => (
+        <div key={idx} >
+          <Image src={image.src} alt={image.alt} layout="responsive" height={250} width={600} />
+        </div>
+      ))}
+    </Carousel>
+      </div>        
 
       
 

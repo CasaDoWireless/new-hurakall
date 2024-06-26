@@ -6,6 +6,7 @@ export const FirstSection = styled.section`
   min-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  flex-direction: column;
   background-position: center;
   display: flex;
   align-items: center;
