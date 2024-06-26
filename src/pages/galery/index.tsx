@@ -22,7 +22,7 @@ export default function DropCable() {
     const id = url.split('v=')[1]?.split('&')[0];
     return `https://img.youtube.com/vi/${id}/mqdefault.jpg`;
   }
-
+  
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [

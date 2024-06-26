@@ -80,6 +80,7 @@ export const FirstSection = styled.section`
   }
   @media screen and (max-width: 800px) {
     padding: 3rem;
+    flex-direction: column;
     div {
       article {
         section {
@@ -256,3 +257,6 @@ export const SecondSection = styled.section`
 `;
 
 export default FirstSection;
+
+
+

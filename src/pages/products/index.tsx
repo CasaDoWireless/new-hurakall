@@ -2,7 +2,6 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 
-
 import Image from 'next/image';
 import ONT from '../../../public/assets/home/produtos_home/ont.png';
 import Roteador from '../../../public/assets/home/produtos_home/roteador.png';
@@ -12,15 +11,20 @@ import Clivador from '../../../public/assets/home/produtos_home/clivador.png';
 import Fusao from '../../../public/assets/home/produtos_home/fusao.png';
 import ConectorRosca from '../../../public/assets/home/produtos_home/conector_rosca.png';
 import ConectorClip from '../../../public/assets/home/produtos_home/conector_clip.png';
-
-//new image
 import carregadorEst from '../../../public/assets/home/produtos_home/carregador_estação.png';
 import carregadorBCP from '../../../public/assets/home/produtos_home/carregador_bcp-AT2n.png';
 import carregadorCCDF from '../../../public/assets/home/produtos_home/carregador_CCDC.png';
 import carregadorAC from '../../../public/assets/home/produtos_home/carregador_AC_BCP_solo.png';
 
 
-//----------------------------------------------------------------
+//import slider
+import carregador1 from '../../../public/assets/home/slider/slider_carregador.png';
+import carregadores from '../../../public/assets/home/slider/slider_carregadores.png';
+import led from '../../../public/assets/home/slider/slider_led.png';
+
+
+
+//
 import Warranty from '../../../public/assets/images/products-image/prod-banner2-icon2.png';
 import Chip from '../../../public/assets/images/products-image/prod-banner2-icon1.png';
 import Support from '../../../public/assets/images/products-image/prod-banner2-icon3.png';
@@ -29,6 +33,10 @@ import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
 import { FirstSection, SecondSection } from './styles';
 import Link from 'next/link';
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carousel styles
+import { Carousel } from 'react-responsive-carousel';
+
 const Products: NextPage = () => {
   const products = [
     {
@@ -87,8 +95,6 @@ const Products: NextPage = () => {
       imageDescription: 'ConectorClip',
       nav: '/conector-click',
     },
-
-
     {
       title: 'ESTAÇÃO DE RECARGA BCP-CT2N-P AC 22kM',
       description: '22kW - 2 conectores - 5M DE CABO',
@@ -114,9 +120,16 @@ const Products: NextPage = () => {
       title: 'ESTAÇÃO DE RECARGA DC BDC120-D',
       description: 'AC - 60kW e 120kW - 2 conectores',
       image: carregadorEst,
-      imageDescription: '/estacao-BDC',
+      imageDescription: 'estacao-BDC',
       nav: '/estacao-BDC',
     },
+  ];
+
+  const carouselImages = [
+    { src: carregador1, alt: 'carregadores' },
+    { src: carregadores, alt: 'carregadores' },
+    { src: led, alt: 'carregadores' },
+
   ];
 
   return (
@@ -130,7 +143,7 @@ const Products: NextPage = () => {
       <Menu />
 
       <FirstSection>
-        
+        {/* Primeira Seção */}
         <div>
           <article>
             <section>
@@ -193,7 +206,8 @@ const Products: NextPage = () => {
             </motion.div>
           </article>
         </div>
-        
+
+        {/* Segunda Seção */}
         <div>
           <article>
             <section>
@@ -258,6 +272,16 @@ const Products: NextPage = () => {
         </div>
       </FirstSection>
 
+      <div style={{ padding: '0px', textAlign: 'center', maxWidth: '100%', margin: 'auto' }}>
+  <Carousel showThumbs={false} autoPlay infiniteLoop>
+    {carouselImages.map((image, idx) => (
+      <div key={idx} >
+        <Image src={image.src} alt={image.alt} layout="responsive" height={250} width={600} />
+      </div>
+    ))}
+  </Carousel>
+    </div>
+    
       <SecondSection>
         <article>
           <header>
@@ -281,6 +305,9 @@ const Products: NextPage = () => {
           </main>
         </article>
       </SecondSection>
+
+      
+
 
       <Footer />
     </div>
