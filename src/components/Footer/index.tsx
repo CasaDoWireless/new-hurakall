@@ -18,8 +18,11 @@ export function Footer() {
     <Container>
       <div>
         <section>
-          <Image src={Logo} alt="Vercel Logo" layout="fixed" />
-
+        <Link href="/" passHref>
+    <a>
+      <Image src={Logo} alt="Vercel Logo" layout="fixed" />
+    </a>
+  </Link>
           <p>FOLLOW US</p>
           <ul>
             <li>

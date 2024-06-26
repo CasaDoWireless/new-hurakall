@@ -9,7 +9,7 @@ const Map = () => {
       center={[-15.802009, -47.9620037]}
       zoom={14}
       scrollWheelZoom={true}
-      style={{ height: '35vh', width: '39rem', borderRadius: '20px' }}
+      style={{ height: '35vh', width: '40rem', borderRadius: '20px'}}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

@@ -13,7 +13,11 @@ const Menu: NextPage = () => {
   return (
     <Header id="scroll">
       <span>
-        <Image src={Logo} alt="Vercel Logo" />
+      <Link href="/" passHref>
+    <a>
+      <Image src={Logo} alt="Vercel Logo" layout="fixed" />
+    </a>
+  </Link>
       </span>
       <button className="btn-menu" onClick={() => setMenuOpen(!menuOpen)}>
         <FaBars />
