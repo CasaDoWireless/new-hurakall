@@ -31,7 +31,7 @@ export const FirstSection = styled.section`
         }
 
         .img1{
-          width: 35rem;
+          width: 45rem;
         }
 
         header {
@@ -237,20 +237,19 @@ export const SecondSection = styled.section`
     article {
       header {
         h1 {
-          font-size: 1.2rem;
+          font-size: 1.7rem;
         }
       }
       main {
         div {
-          width: 25rem;
-          height: 25rem;
-          margin-bottom: 30rem;
-
+          width: 40rem;
+          height: 40rem;
+          margin-bottom: 5rem;
           p {
             font-size: 1.2rem;
           }
           figure {
-            width: 20rem;
+            width: 19rem;
           }
         }
       }

@@ -314,7 +314,7 @@ const Products: NextPage = () => {
             <h1>
             Soluções completas 
 de recarga rápida e ultrarápida em 
-residências, <br /> estações de serviço 
+residências, estações de serviço 
 e rodovias.
 
             </h1>
