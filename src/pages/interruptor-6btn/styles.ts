@@ -158,7 +158,7 @@ export const ThirdSection = styled.section`
   }
   .img1 {
     img {
-      max-width: 20rem;
+      max-width: 30rem;
       margin-left: 10rem;
     }
   }

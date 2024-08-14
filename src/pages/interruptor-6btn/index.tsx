@@ -82,11 +82,13 @@ export default function conector() {
         </div>
         <p>
           <img src="assets/conector/next.png" alt="" />
-          Toque para ON / OFF        </p>
+          Toque para ON / OFF
+          </p>
 
         <p>
           <img src="assets/conector/next.png" alt="" />
-          App Remote ON / OFF        </p>
+          App Remote ON / OFF
+          </p>
 
         <p>
           <img src="assets/conector/next.png" alt="" />
