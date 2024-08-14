@@ -31,12 +31,16 @@ export default function conector() {
 
       <ThirdSection>
         <article>
-           <p>O Interruptor Wi-fi Touch Hurakall, pode ser utilizado em diversos pontos de sua casa, por exemplo, 
-              em sua iluminação, onde você pode acender e apagas as luzes utilizando o seu Smartphone e ainda 
-              pode programar o acendimento automático das mesmas pelo próprio aplicativo. Você pode programar 
-              para que a iluminação acenda ou apague em um determinado horário de acordo com sua programação. Você
-              também pode compartilhar o controle de sua residência com os demais moradores, alcançando até 6 Aparelhos,
-              Smartfones ou Tablets ao mesmo tempo.</p>
+           <p>
+
+                O Interruptor Wi-fi Touch Hurakall, pode ser utilizado em diversos pontos de sua casa, por exemplo, 
+                em sua iluminação, onde você pode acender e apagas as luzes utilizando o seu Smartphone e ainda 
+                pode programar o acendimento automático das mesmas pelo próprio aplicativo. Você pode programar 
+                para que a iluminação acenda ou apague em um determinado horário de acordo com sua programação. Você
+                também pode compartilhar o controle de sua residência com os demais moradores, alcançando até 6 Aparelhos,
+                Smartfones ou Tablets ao mesmo tempo.
+
+              </p>
         </article>
 
         <div className="img1">
@@ -64,22 +68,22 @@ export default function conector() {
         <div className="two">
           <img src="/assets/touch6btn/image-touch6btn.png" alt="" />
         </div>
-        <p>
+        <p className="desc">
           <img src="assets/conector/next.png" alt="" />
           Toque para ON / OFF
           </p>
 
-        <p>
+        <p className="desc">
           <img src="assets/conector/next.png" alt="" />
           App Remote ON / OFF
           </p>
 
-        <p>
+        <p className="desc">
           <img src="assets/conector/next.png" alt="" />
           Temporizadores De Programação / Contagem Regressiva
           </p>
 
-        <p>
+        <p className="desc">
           <img src="assets/conector/next.png" alt="" />
           Funciona com os principais assistentes de voz do mercado.
           </p>
@@ -118,7 +122,7 @@ export default function conector() {
               <td>Padrão Sem Fio</td>
               <td>802.11 B/G/N</td>
             </tr>
-            
+
             <tr>
               <td>Mecanismo De Segurança:</td>
               <td>WPA-PSK/WPA2-PSK</td>

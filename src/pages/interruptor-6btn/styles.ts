@@ -207,9 +207,11 @@ export const ThirdSection = styled.section`
 
 export const FouthSection = styled.section`
   display: flex;
-
-  .two {
+  
+  .desc{
     color: color: #000000;
+  }
+  .two {
       img {
         color: color: #000000;
         width: 50rem;
