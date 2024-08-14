@@ -220,7 +220,7 @@ export const FouthSection = styled.section`
   justify-content: space-around;
   padding: 0 5rem;
   position: relative;
-  background-color: dark;
+  background-color: white;
   background-size: cover;
   z-index: 0;
   margin: 0 0 4rem 0;
