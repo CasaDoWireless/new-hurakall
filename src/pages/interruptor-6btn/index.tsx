@@ -164,7 +164,7 @@ export default function conector() {
               <img src="assets/touch6btn/t5.jpg" alt="touch-light-wifi" />
             </span>
             <span className="image">
-              <img src="assets/touch6btn/t6.jpg" alt="touch-light-wifi" />
+              <img src="assets/touch6btn/t6.png" alt="touch-light-wifi" />
             </span>
           </div>
         </div>
