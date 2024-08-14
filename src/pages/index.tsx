@@ -118,7 +118,7 @@ const Home: NextPage = () => {
       description: '6 BOTÕES 4X4',
       image: interruptor,
       imageDescription: '/touch-light-swich',
-      nav: '/estacao-BDC',
+      nav: '/interruptor-6btn',
     },
   ];
 
