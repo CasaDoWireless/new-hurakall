@@ -45,13 +45,18 @@ export default function conector() {
 
       <ThirdSection>
         <article>
-          <p>
-          A estação de carregamento Hurakall DC EV tem capacidade de cálculo e processamento de dados mais poderosa, estratégia de despacho mais inteligente, melhor desempenho de dissipação de calor e menor ruído, e atende totalmente aos requisitos de carregamento DC de alta potência de veículos com interface DC padrão global.
-          </p>
+           <p>
+              O Interruptor Wi-fi Touch Hurakall, pode ser utilizado em diversos pontos de sua casa, por exemplo, 
+              em sua iluminação, onde você pode acender e apagas as luzes utilizando o seu Smartphone e ainda 
+              pode programar o acendimento automático das mesmas pelo próprio aplicativo. Você pode programar 
+              para que a iluminação acenda ou apague em um determinado horário de acordo com sua programação. Você
+              também pode compartilhar o controle de sua residência com os demais moradores, alcançando até 6 Aparelhos,
+              Smartfones ou Tablets ao mesmo tempo.
+           </p>
         </article>
 
         <div className="img1">
-          <img src="/assets/estacao-BDC/carregador_estação_dual.png" alt="" />
+          <img src="/assets/touch6btn/btn6.png" alt="touch-light-hurakall"/>
         </div>
       </ThirdSection>
 
