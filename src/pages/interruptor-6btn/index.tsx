@@ -59,9 +59,10 @@ export default function conector() {
         <div className="section4">
           <div className="list">
             <ul>
-              <li>60 kW - 240 kW</li>
-              <li>2 armas (CCS1, CCS2, Chademo opcional)</li>
-              <li>Expositor</li>
+              <li>SISTEMAS DE VOZ COMPATÍVEIS:</li>
+              <li>Google Home</li>
+              <li>Alexa</li>
+              <li>Siri</li>
             </ul>
           </div>
           <div className="vertical"></div>
@@ -70,34 +71,42 @@ export default function conector() {
             
           </div>
         </div>
-        
+
         <div className="two">
           <img src="/assets/touch6btn/image-touch6btn.png" alt="" />
         </div>
         <p>
           <img src="assets/conector/next.png" alt="" />
-          Economia de tempo - Carregamento rápido
-        </p>
+          Toque para ON / OFF        </p>
 
         <p>
           <img src="assets/conector/next.png" alt="" />
-          Economia de energia - Alta eficiência de conversão e baixo consumo de energia em espera
-        </p>
+          App Remote ON / OFF        </p>
 
         <p>
           <img src="assets/conector/next.png" alt="" />
-          Alta Segurança - Dupla proteção para operação manual e veículos
-        </p>
+          Temporizadores De Programação / Contagem Regressiva
+          </p>
 
         <p>
           <img src="assets/conector/next.png" alt="" />
-          Atualização de firmware
-        </p>
+          Funciona com os principais assistentes de voz do mercado.
+          </p>
+          <p>
+          <img src="assets/conector/next.png" alt="" />
+          Trabalha Com O IFTTT
+          </p>
       </FouthSection>
 
       <FifthSection>
         <p>
-        Estação de carregamento de 2 armas DC 60kW-240kW BENY EV carregamento rápido        </p>
+        O Interruptor Wi-fi Touch Hurakall, pode ser utilizado em diversos pontos de sua casa, por exemplo, 
+        em sua iluminação, onde você pode acender e apagas as luzes utilizando o seu Smartphone e ainda 
+        pode programar o acendimento automático das mesmas pelo próprio aplicativo. Você pode programar 
+        para que a iluminação acenda ou apague em um determinado horário de acordo com sua programação. Você
+        também pode compartilhar o controle de sua residência com os demais moradores, alcançando até 6 Aparelhos,
+        Smartfones ou Tablets ao mesmo tempo.
+        </p>
       </FifthSection>
 
       <SixthSection>

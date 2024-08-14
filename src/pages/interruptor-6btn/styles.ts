@@ -209,7 +209,9 @@ export const FouthSection = styled.section`
   display: flex;
 
   .two {
+    color: color: #000000;
       img {
+        color: color: #000000;
         width: 50rem;
       }
     }
