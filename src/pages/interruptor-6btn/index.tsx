@@ -28,21 +28,7 @@ export default function conector() {
           <img src="/assets/home/produtos_home/6btn.png" alt="" />
         </div>
       </FirstSection>
-
-      <SecondSection>
-        <div className="section2">
-          <div className="title">
-            <p>
-            ESTAÇÃO DE RECARGA DC BDC120-D</p>
-          </div>
-          <img src="/assets/estacao-BDC/3 Fotos.png" alt="" />
-          <div className="conteudo">
-            <p>
-            O produto possui design de proteção múltipla e função de proteção ativa, que pode monitorar todos os dados de comunicação no processo de carregamento e avisar antecipadamente todos os tipos de carregamento anormal para garantir a segurança dos usuários e veículos.</p>
-          </div>
-        </div>
-      </SecondSection>
-
+      
       <ThirdSection>
         <article>
            <p>O Interruptor Wi-fi Touch Hurakall, pode ser utilizado em diversos pontos de sua casa, por exemplo, 
