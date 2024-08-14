@@ -160,6 +160,7 @@ export const ThirdSection = styled.section`
     img {
       max-width: 20rem;
       margin-left: 10rem;
+      border-radius: 15px;
     }
   }
   .img2 {
@@ -242,7 +243,7 @@ export const FouthSection = styled.section`
         color: #000000;
         display: flex;
         gap: 5rem;
-        
+
         li{
         color: #000000;
         }
