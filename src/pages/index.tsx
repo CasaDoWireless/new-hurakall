@@ -13,6 +13,8 @@ import Fusao from '../../public/assets/home/produtos_home/fusao.png';
 import ConectorRosca from '../../public/assets/home/produtos_home/conector_rosca.png';
 import ConectorClip from '../../public/assets/home/produtos_home/conector_clip.png';
 //new image
+import interruptor from '../../public/assets/home/produtos_home/6btn.png';
+
 import carregadorEst from '../../public/assets/home/produtos_home/carregador_estação.png';
 import carregadorBCP from '../../public/assets/home/produtos_home/carregador_bcp-AT2n.png';
 import carregadorCCDF from '../../public/assets/home/produtos_home/carregador_CCDC.png';
@@ -114,8 +116,8 @@ const Home: NextPage = () => {
     {
       title: 'INTERRUPTOR TOUCH WI-FI',
       description: '6 BOTÕES 4X4',
-      image: carregadorEst,
-      imageDescription: '/estacao-BDC',
+      image: interruptor,
+      imageDescription: '/touch-light-swich',
       nav: '/estacao-BDC',
     },
   ];
