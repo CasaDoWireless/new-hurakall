@@ -210,7 +210,7 @@ export const FouthSection = styled.section`
 
   .two {
       img {
-        width: 80rem;
+        width: 50rem;
       }
     }
 
