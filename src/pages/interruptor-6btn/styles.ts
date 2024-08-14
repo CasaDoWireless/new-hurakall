@@ -265,7 +265,7 @@ export const FouthSection = styled.section`
     }
     .two {
       img {
-        width: 40rem;
+        width: 35rem;
       }
     }
   }
