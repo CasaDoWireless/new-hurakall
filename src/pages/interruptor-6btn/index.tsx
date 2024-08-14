@@ -70,6 +70,7 @@ export default function conector() {
             
           </div>
         </div>
+        
         <div className="two">
           <img src="/assets/touch6btn/image-touch6btn.png" alt="" />
         </div>
