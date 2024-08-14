@@ -28,7 +28,7 @@ export default function conector() {
           <img src="/assets/home/produtos_home/6btn.png" alt="" />
         </div>
       </FirstSection>
-      
+
       <ThirdSection>
         <article>
            <p>O Interruptor Wi-fi Touch Hurakall, pode ser utilizado em diversos pontos de sua casa, por exemplo, 
@@ -102,114 +102,43 @@ export default function conector() {
 
       <SixthSection>
         <h1>Product Parameters</h1>
-        <p>ESTAÇÃO DE RECARGA DC BDC120-D</p>
+        <p>INTERRUPTOR TOUCH WI-FI 6 BOTÕES 4X4</p>
         <table>
           <tbody>
             <tr>
-              <td>Material</td>
-              <td>Aço carbono</td>
+              <td>Fonte de Alimentação:</td>
+              <td>100 A 240 Volts AC - Bivolt</td>
             </tr>
 
             <tr>
-              <td>Dimensão</td>
-              <td>800*800*2000(C*L*T)</td>
+              <td>Potência Max</td>
+              <td>120v 300w / 240v 550w por saída</td>
             </tr>
             <tr>
-              <td>Peso</td>
-              <td>≤350kg</td>
+              <td>Padrão Sem Fio</td>
+              <td>802.11 B/G/N</td>
             </tr>
+            
             <tr>
-              <td>Método de instalação</td>
-              <td>Tipo de suporte de chão</td>
+              <td>Mecanismo De Segurança:</td>
+              <td>WPA-PSK/WPA2-PSK</td>
             </tr>
+
             <tr>
-              <td>Roteamento de cabo</td>
-              <td>Fiação de entrada inferior, fiação de saída superior</td>
+              <td> WiFi</td>
+              <td>2.4GHz & 802.11 B/G/N</td>
             </tr>
+
             <tr>
-              <td>Comprimento do cabo</td>
+              <td>Compatível Com O Padrão</td>
               <td>5 metros</td>
             </tr>
+
             <tr>
-              <td>Tomadas de carregamento</td>
-              <td>Duplo (CCS1+CCS1)	 Duplo (CCS2+CCS2)	Duplo (CCS1+CCS2)</td>
+              <td>Dimensões</td>
+              <td>120mm x 72mm x 40mm (C x L x A)</td>
             </tr>
-            <tr>
-              <td>Autorização de conectividade</td>
-              <td>RFID, aplicativo</td>
-            </tr>
-            <tr>
-              <td>Tela</td>
-              <td>Tela LCD de 9,1 polegadas/luz LED</td>
-            </tr>
-            <tr>
-              <td>Tensão de entrada CA</td>
-              <td>AC380V±15% ,3P+N+PEAC</td>
-            </tr>
-            <tr>
-              <td>Frequência de entrada</td>
-              <td>50Hz/60Hz</td>
-            </tr>
-            <tr>
-              <td>Potência nominal</td>
-              <td>60kW / 90kW / 120kW / 150kW / 180kW / 240kW</td>
-            </tr>
-            <tr>
-              <td>Faixa de tensão de saída</td>
-              <td>CCS1: 150 Vcc –1000 Vcc	CCS2: 150 Vcc –1000 Vcc	CCS1: 150 Vcc –1000 Vcc,
-              CCS2: 150 Vcc –1000 Vcc</td>
-            </tr>
-            <tr>
-              <td>Corrente de saída</td>
-              <td>CCS1:0~250A	CCS2:0~250A	CCS1: 0~250A, CCS2: 0~250A</td>
-            </tr>
-    
-            <tr>
-              <td>OCPP</td>
-              <td>OCP 1.6</td>
-            </tr>
-            <tr>
-              <td>Interface de rede</td>
-              <td>Ethernet/4G</td>
-            </tr>
-            <tr>
-              <td>Local de aplicação</td>
-              <td>Interior e exterior</td>
-            </tr>
-            <tr>
-              <td>Latitude de trabalho</td>
-              <td>2000m</td>
-            </tr>
-            <tr>
-              <td>Temperatura de trabalho</td>
-              <td>-30~ +55</td>
-            </tr>
-            <tr>
-              <td>Umidade de trabalho</td>
-              <td>5%~95%</td>
-            </tr>
-            <tr>
-              <td>Nível de proteção</td>
-              <td>IP55</td>
-            </tr>
-            <tr>
-              <td>Temperatura de trabalho</td>
-              <td>-30~ +50</td>
-            </tr>
-            <tr>
-              <td>Umidade de trabalho</td>
-              <td>5%~95%</td>
-            </tr>
-            <tr>
-              <td>Nível de proteção</td>
-              <td>IP55</td>
-            </tr>
-            <tr>
-              <td>Resfriamento natural</td>
-              <td>Resfriamento por ar forçado</td>
-            </tr>
-            
-            
+        
           </tbody>
         </table>
       </SixthSection>
