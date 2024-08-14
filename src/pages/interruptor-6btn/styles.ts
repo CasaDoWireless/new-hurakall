@@ -151,14 +151,14 @@ export const ThirdSection = styled.section`
     p {
       padding-left: 15%;
       text-align: left;
-      font-size: 1rem;
+      font-size: 2rem;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
   }
   .img1 {
     img {
-      max-width: 30rem;
+      max-width: 20rem;
       margin-left: 10rem;
     }
   }

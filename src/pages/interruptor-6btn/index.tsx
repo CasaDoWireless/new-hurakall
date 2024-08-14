@@ -45,14 +45,12 @@ export default function conector() {
 
       <ThirdSection>
         <article>
-           <p>
-              O Interruptor Wi-fi Touch Hurakall, pode ser utilizado em diversos pontos de sua casa, por exemplo, 
+           <p>O Interruptor Wi-fi Touch Hurakall, pode ser utilizado em diversos pontos de sua casa, por exemplo, 
               em sua iluminação, onde você pode acender e apagas as luzes utilizando o seu Smartphone e ainda 
               pode programar o acendimento automático das mesmas pelo próprio aplicativo. Você pode programar 
               para que a iluminação acenda ou apague em um determinado horário de acordo com sua programação. Você
               também pode compartilhar o controle de sua residência com os demais moradores, alcançando até 6 Aparelhos,
-              Smartfones ou Tablets ao mesmo tempo.
-           </p>
+              Smartfones ou Tablets ao mesmo tempo.</p>
         </article>
 
         <div className="img1">
