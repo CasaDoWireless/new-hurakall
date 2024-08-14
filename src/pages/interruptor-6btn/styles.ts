@@ -230,7 +230,15 @@ export const FouthSection = styled.section`
     .list {
       float: left;
       margin: 3rem 3rem 0 0;
-      color: #000000;
+      
+      ul{
+        color: #000000;
+
+        li{
+        color: #000000;
+        }
+      }
+
     }
 
     
