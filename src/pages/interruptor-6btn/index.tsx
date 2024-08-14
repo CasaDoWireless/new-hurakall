@@ -58,10 +58,10 @@ export default function conector() {
               <li>Siri</li>
             </ul>
           </div>
-          <div className="vertical"></div>
+          <div className="vertical">
+          </div>
           <div className="premium">
-            <h1>Qualidade e carregamento de carros elétricos.</h1>
-            
+            <h1 className="desch1">Qualidade e carregamento de carros elétricos.</h1>
           </div>
         </div>
 
@@ -71,26 +71,28 @@ export default function conector() {
         <p className="desc">
           <img src="assets/conector/next.png" alt="" />
           Toque para ON / OFF
-          </p>
+        </p>
 
         <p className="desc">
           <img src="assets/conector/next.png" alt="" />
           App Remote ON / OFF
-          </p>
+        </p>
 
         <p className="desc">
           <img src="assets/conector/next.png" alt="" />
           Temporizadores De Programação / Contagem Regressiva
-          </p>
+        </p>
 
         <p className="desc">
           <img src="assets/conector/next.png" alt="" />
           Funciona com os principais assistentes de voz do mercado.
           </p>
-          <p>
+          <p className="desc">
           <img src="assets/conector/next.png" alt="" />
           Trabalha Com O IFTTT
           </p>
+          <br />
+          <br />
       </FouthSection>
 
       <FifthSection>

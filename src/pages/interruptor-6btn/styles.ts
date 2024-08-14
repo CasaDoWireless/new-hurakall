@@ -211,6 +211,9 @@ export const FouthSection = styled.section`
   .desc{
     color: #000000;
   }
+    .desch1{
+      color: #000000;
+    }
   .two {
       img {
         color: color: #000000;
