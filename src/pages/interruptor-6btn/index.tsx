@@ -71,7 +71,7 @@ export default function conector() {
           </div>
         </div>
         <div className="two">
-          <img src="/assets/estacao-BDC/carregador_BDC.png" alt="" />
+          <img src="/assets/touch6btn/image-touch6btn.png" alt="" />
         </div>
         <p>
           <img src="assets/conector/next.png" alt="" />
