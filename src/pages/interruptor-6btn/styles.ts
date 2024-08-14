@@ -151,7 +151,7 @@ export const ThirdSection = styled.section`
     p {
       padding-left: 15%;
       text-align: left;
-      font-size: 2rem;
+      font-size: 1rem;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
