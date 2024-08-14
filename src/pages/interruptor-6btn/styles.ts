@@ -254,10 +254,11 @@ export const FouthSection = styled.section`
     }
     .premium {
       h1 {
+        color: #000000
         float: left;
         width: 35%;
         font-size: 2rem;
-        margin-left: 2rem;
+        margin-left: 3rem;
       }
       img {
         float: right;
