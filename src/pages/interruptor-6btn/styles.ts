@@ -240,6 +240,7 @@ export const FouthSection = styled.section`
       
       ul{
         color: #000000;
+        display: flex;
 
         li{
         color: #000000;

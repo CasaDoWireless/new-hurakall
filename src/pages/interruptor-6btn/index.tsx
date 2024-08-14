@@ -58,11 +58,6 @@ export default function conector() {
               <li>Siri</li>
             </ul>
           </div>
-          <div className="vertical">
-          </div>
-          <div className="premium">
-            <h1 className="desch1">Qualidade e carregamento de carros elétricos.</h1>
-          </div>
         </div>
 
         <div className="two">
