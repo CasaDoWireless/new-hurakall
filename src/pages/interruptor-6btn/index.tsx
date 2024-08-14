@@ -149,22 +149,22 @@ export default function conector() {
           <h1>Galeria</h1>
           <div className="manufacturing-images">
             <span className="image">
-              <img src="assets/estacao-AC/1.png" alt="" />
+              <img src="assets/touch6btn/t1.jpg" alt="touch-light-wifi" />
             </span>
             <span className="image">
-              <img src="assets/estacao-AC/2.png" alt="" />
+              <img src="assets/touch6btn/t2.jpg" alt="touch-light-wifi" />
             </span>
             <span className="image">
-              <img src="assets/estacao-AC/3.png" alt="" />
+              <img src="assets/touch6btn/t3.jpg" alt="touch-light-wifi" />
             </span>
             <span className="image">
-              <img src="assets/estacao-AC/4.jpg" alt="" />
+              <img src="assets/touch6btn/t4.jpg" alt="touch-light-wifi" />
             </span>
             <span className="image">
-              <img src="assets/estacao-AC/5.jpg" alt="" />
+              <img src="assets/touch6btn/t5.jpg" alt="touch-light-wifi" />
             </span>
             <span className="image">
-              <img src="assets/estacao-AC/6.png" alt="" />
+              <img src="assets/touch6btn/t6.jpg" alt="touch-light-wifi" />
             </span>
           </div>
         </div>
