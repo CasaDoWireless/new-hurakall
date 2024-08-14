@@ -11,7 +11,7 @@ export const FirstSection = styled.section`
   padding: 0 5rem;
   position: relative;
 
-  background: url(${'assets/estacao-BDC/BDC_bg.jpg.png'}) no-repeat fixed center;
+  background: url(${'assets/touch6btn/bg-touch.png'}) no-repeat fixed center;
   background-size: cover;
   z-index: 0;
 
