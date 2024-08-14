@@ -111,6 +111,13 @@ const Home: NextPage = () => {
       imageDescription: '/estacao-BDC',
       nav: '/estacao-BDC',
     },
+    {
+      title: 'INTERRUPTOR TOUCH WI-FI',
+      description: '6 BOTÕES 4X4',
+      image: carregadorEst,
+      imageDescription: '/estacao-BDC',
+      nav: '/estacao-BDC',
+    },
   ];
 
 
