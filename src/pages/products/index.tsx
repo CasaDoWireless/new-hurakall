@@ -335,6 +335,99 @@ e rodovias.
       </SecondSection> 
     </FirstSection>
 
+    
+    <FirstSection>
+      {/* sessão de carregadores*/}
+        {/* Segunda Seção */}
+        <div>
+          <article>
+            <section>
+              <motion.div
+                initial={{ opacity: 0, x: -60 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1, delay: 0.2 }}
+                viewport={{ once: true }}
+              >
+                <header>
+                  <h1>ESTAÇÃO DE RECARGA DC BDC120-D</h1>
+                  <p>
+                  60kW e 120kW <br />
+                  com 2 conectores
+                  </p>
+                </header>
+              </motion.div>
+              <main>
+                <figure className="icons">
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.35 }}
+                    viewport={{ once: true }}
+                  >
+                    <Image src={conector} alt="chip" />
+                  </motion.div>
+
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.5 }}
+                    viewport={{ once: true }}
+                  >
+                    <Image src={charge} alt="garantia" />
+                  </motion.div>
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.65 }}
+                    viewport={{ once: true }}
+                  >
+                    <Image src={rfid} alt="suporte" />
+                  </motion.div>
+                </figure>
+              </main>
+            </section>
+            <motion.div
+              initial={{ opacity: 0, x: 60 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, delay: 0.3 }}
+              viewport={{ once: true }}
+            >
+              <section>
+                <img className='img1'
+                  src="/assets/home/produtos_home/carregador_estação1.png"
+                  alt=""
+                />
+              </section>
+            </motion.div>
+          </article>
+        </div>
+        <SecondSection>
+        <article>
+          <header>
+            <h1>
+            Soluções completas 
+de recarga rápida e ultrarápida em 
+residências, estações de serviço 
+e rodovias.
+
+            </h1>
+          </header>
+          <main>
+            {products2.map((product2, idx) => (
+              <Link key={idx} href={product2.nav}>
+                <div>
+                  <figure>
+                    <Image src={product2.image} alt={product2.imageDescription} />
+                  </figure>
+                  <p>{product2.title}</p>
+                </div>
+              </Link>
+            ))}
+          </main>
+        </article>
+      </SecondSection> 
+    </FirstSection>
+
 
       
 
