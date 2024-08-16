@@ -120,6 +120,13 @@ const Home: NextPage = () => {
       imageDescription: '/touch-light-swich',
       nav: '/interruptor-6btn',
     },
+    {
+      title: 'INTERRUPTOR TOUCH WI-FI',
+      description: '6 BOTÕES 4X4',
+      image: interruptor,
+      imageDescription: '/touch-light-swich',
+      nav: '/interruptor-6btn',
+    },
   ];
 
 
