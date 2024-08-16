@@ -25,7 +25,7 @@ export default function conector() {
       <Menu />
       <FirstSection>
         <div className="section1">
-          <img src="/assets/home/produtos_home/4btn.png" alt="" />
+          <img src="/assets/home/produtos_home/3btn.png" alt="" />
         </div>
       </FirstSection>
 
@@ -44,7 +44,7 @@ export default function conector() {
         </article>
 
         <div className="img1">
-          <img src="/assets/touch6btn/btn4.png" alt="touch-light-hurakall"/>
+          <img src="/assets/touch6btn/btn3.png" alt="touch-light-hurakall"/>
         </div>
       </ThirdSection>
 
@@ -61,7 +61,7 @@ export default function conector() {
         </div>
 
         <div className="two">
-          <img src="/assets/touch6btn/image-touch4btn.png" alt="" />
+          <img src="/assets/touch6btn/image-touch3btn.png" alt="" />
         </div>
         <p className="desc">
           <img src="assets/conector/next.png" alt="" />
