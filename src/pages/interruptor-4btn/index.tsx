@@ -103,7 +103,7 @@ export default function conector() {
 
       <SixthSection>
         <h1>Product Parameters</h1>
-        <p>INTERRUPTOR TOUCH WI-FI 6 BOTÕES 4X4</p>
+        <p>INTERRUPTOR TOUCH WI-FI 4 BOTÕES 4X4</p>
         <table>
           <tbody>
             <tr>
