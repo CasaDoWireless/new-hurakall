@@ -17,6 +17,7 @@ import interruptor from '../../public/assets/home/produtos_home/6btn.png';
 import interruptor4 from '../../public/assets/home/produtos_home/4btn.png';
 import interruptor3 from '../../public/assets/home/produtos_home/3btn.png';
 import interruptor2 from '../../public/assets/home/produtos_home/2btn.png';
+import interruptor1 from '../../public/assets/home/produtos_home/1btn.png';
 
 
 import carregadorEst from '../../public/assets/home/produtos_home/carregador_estação.png';
@@ -133,17 +134,24 @@ const Home: NextPage = () => {
     },
     {
       title: 'INTERRUPTOR TOUCH WI-FI',
-      description: '3 BOTÕES 4X4',
+      description: '3 BOTÕES',
       image: interruptor3,
       imageDescription: '/touch-light-swich',
       nav: '/interruptor-3btn',
     },
     {
       title: 'INTERRUPTOR TOUCH WI-FI',
-      description: '2 BOTÕES 4X4',
+      description: '2 BOTÕES',
       image: interruptor2,
       imageDescription: '/touch-light-swich',
       nav: '/interruptor-2btn',
+    },
+    {
+      title: 'INTERRUPTOR TOUCH WI-FI',
+      description: '1 BOTÃO',
+      image: interruptor1,
+      imageDescription: '/touch-light-swich',
+      nav: '/interruptor-1btn',
     },
   ];
 
