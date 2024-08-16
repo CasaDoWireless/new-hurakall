@@ -15,6 +15,7 @@ import ConectorClip from '../../public/assets/home/produtos_home/conector_clip.p
 //new image
 import interruptor from '../../public/assets/home/produtos_home/6btn.png';
 import interruptor4 from '../../public/assets/home/produtos_home/4btn.png';
+import interruptor3 from '../../public/assets/home/produtos_home/3btn.png';
 
 
 import carregadorEst from '../../public/assets/home/produtos_home/carregador_estação.png';
@@ -128,6 +129,13 @@ const Home: NextPage = () => {
       image: interruptor4,
       imageDescription: '/touch-light-swich',
       nav: '/interruptor-4btn',
+    },
+    {
+      title: 'INTERRUPTOR TOUCH WI-FI',
+      description: '3 BOTÕES 4X4',
+      image: interruptor3,
+      imageDescription: '/touch-light-swich',
+      nav: '/interruptor-3btn',
     },
   ];
 
