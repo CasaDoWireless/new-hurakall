@@ -14,6 +14,8 @@ import ConectorRosca from '../../public/assets/home/produtos_home/conector_rosca
 import ConectorClip from '../../public/assets/home/produtos_home/conector_clip.png';
 //new image
 import interruptor from '../../public/assets/home/produtos_home/6btn.png';
+import interruptor4 from '../../public/assets/home/produtos_home/4btn.png';
+
 
 import carregadorEst from '../../public/assets/home/produtos_home/carregador_estação.png';
 import carregadorBCP from '../../public/assets/home/produtos_home/carregador_bcp-AT2n.png';
@@ -123,7 +125,7 @@ const Home: NextPage = () => {
     {
       title: 'INTERRUPTOR TOUCH WI-FI',
       description: '6 BOTÕES 4X4',
-      image: interruptor,
+      image: interruptor4,
       imageDescription: '/touch-light-swich',
       nav: '/interruptor-6btn',
     },
