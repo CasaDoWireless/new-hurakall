@@ -124,7 +124,7 @@ const Home: NextPage = () => {
     },
     {
       title: 'INTERRUPTOR TOUCH WI-FI',
-      description: '6 BOTÕES 4X4',
+      description: '4 BOTÕES 4X4',
       image: interruptor4,
       imageDescription: '/touch-light-swich',
       nav: '/interruptor-6btn',
