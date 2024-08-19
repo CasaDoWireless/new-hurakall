@@ -145,35 +145,35 @@ const Products: NextPage = () => {
   const products3 = [
 
     {
-      title: 'INTERRUPTOR TOUCH WI-FI',
+      title: 'INTERRUPTOR WI-FI 6 BOTÕES',
       description: '6 BOTÕES 4X4',
       image: interruptor,
       imageDescription: 'interruptor',
       nav: '/interruptor-6btn',
     },
     {
-      title: 'INTERRUPTOR TOUCH WI-FI',
+      title: 'INTERRUPTOR WI-FI 4 BOTÕES',
       description: '4 BOTÕES 4X4',
       image: interruptor4,
       imageDescription: 'interruptor',
       nav: '/interruptor-4btn',
     },
     {
-      title: 'INTERRUPTOR TOUCH WI-FI',
+      title: 'INTERRUPTOR WI-FI 3 BOTÕES',
       description: '3 BOTÕES',
       image: interruptor3,
       imageDescription: 'interruptor',
       nav: '/interruptor-3btn',
     },
     {
-      title: 'INTERRUPTOR TOUCH WI-FI',
+      title: 'INTERRUPTOR WI-FI 2 BOTÕES',
       description: '2 BOTÕES',
       image: interruptor2,
       imageDescription: 'interruptor',
       nav: '/interruptor-2btn',
     },
     {
-      title: 'INTERRUPTOR TOUCH WI-FI',
+      title: 'INTERRUPTOR WI-FI 1 BOTÃO',
       description: '1 BOTÃO',
       image: interruptor1,
       imageDescription: 'interruptor',
