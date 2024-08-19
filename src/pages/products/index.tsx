@@ -349,10 +349,9 @@ e rodovias.
                 viewport={{ once: true }}
               >
                 <header>
-                  <h1>ESTAÇÃO DE RECARGA DC BDC120-D</h1>
-                  <p>
-                  60kW e 120kW <br />
-                  com 2 conectores
+                  <h1>Interruptores Inteligentes Hurakall</h1>
+                  <p>Touch WI-FI<br />
+                  (1,2,3,4e 6 Botões)
                   </p>
                 </header>
               </motion.div>
@@ -394,7 +393,7 @@ e rodovias.
             >
               <section>
                 <img className='img1'
-                  src="/assets/home/produtos_home/carregador_estação1.png"
+                  src="/assets/home/produtos_home/touch.png"
                   alt=""
                 />
               </section>
