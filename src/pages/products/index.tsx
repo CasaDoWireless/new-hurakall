@@ -175,7 +175,7 @@ const Products: NextPage = () => {
     {
       title: 'INTERRUPTOR TOUCH WI-FI',
       description: '1 BOTÃO',
-      image: interruptor,
+      image: interruptor1,
       imageDescription: 'interruptor',
       nav: '/interruptor-1btn',
     },
@@ -460,13 +460,13 @@ e rodovias.
             </h1>
           </header>
           <main>
-            {products3.map((products3, idx) => (
-              <Link key={idx} href={products3.nav}>
+            {products3.map((product3, idx) => (
+              <Link key={idx} href={product3.nav}>
                 <div>
                   <figure>
-                    <Image src={products3.image} alt={products3.imageDescription} />
+                    <Image src={products.image} alt={product3.imageDescription} />
                   </figure>
-                  <p>{products3.title}</p>
+                  <p>{product3.title}</p>
                 </div>
               </Link>
             ))}
