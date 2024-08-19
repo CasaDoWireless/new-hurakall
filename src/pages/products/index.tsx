@@ -392,7 +392,7 @@ e rodovias.
               viewport={{ once: true }}
             >
               <section>
-                <img className='img1'
+                <img className='img3'
                   src="/assets/home/produtos_home/touch.png"
                   alt=""
                 />
