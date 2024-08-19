@@ -33,6 +33,7 @@ export const FirstSection = styled.section`
         .img1{
           width: 45rem;
         }
+          
         .img3{
           width: 37rem;
         }

@@ -31,6 +31,11 @@ import conector from '../../../public/assets/images/products-image/prod-banner2-
 import charge from '../../../public/assets/images/products-image/prod-banner2-icon5.png';
 import rfid from '../../../public/assets/images/products-image/prod-banner2-icon6.png';
 
+
+import touch from '../../../public/assets/images/products-image/icon1.png';
+import time from '../../../public/assets/images/products-image/icon2.png';
+import wifi from '../../../public/assets/images/products-image/icon3.png';
+
 import { Footer } from '../../components/Footer';
 import Menu from '../../components/Menu/Menu';
 import { FirstSection, SecondSection } from './styles';
@@ -351,7 +356,7 @@ e rodovias.
                 <header>
                   <h1>Interruptores Inteligentes Hurakall</h1>
                   <p>Touch WI-FI<br />
-                  (1,2,3,4e 6 Botões)
+                  (1,2,3,4 e 6 Botões)
                   </p>
                 </header>
               </motion.div>
@@ -363,7 +368,7 @@ e rodovias.
                     transition={{ duration: 1, delay: 0.35 }}
                     viewport={{ once: true }}
                   >
-                    <Image src={conector} alt="chip" />
+                    <Image src={touch} alt="touch" />
                   </motion.div>
 
                   <motion.div
@@ -372,7 +377,7 @@ e rodovias.
                     transition={{ duration: 1, delay: 0.5 }}
                     viewport={{ once: true }}
                   >
-                    <Image src={charge} alt="garantia" />
+                    <Image src={wifi} alt="garantia" />
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0 }}
@@ -380,7 +385,7 @@ e rodovias.
                     transition={{ duration: 1, delay: 0.65 }}
                     viewport={{ once: true }}
                   >
-                    <Image src={rfid} alt="suporte" />
+                    <Image src={time} alt="suporte" />
                   </motion.div>
                 </figure>
               </main>
