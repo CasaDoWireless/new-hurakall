@@ -16,6 +16,12 @@ import carregadorBCP from '../../../public/assets/home/produtos_home/carregador_
 import carregadorCCDF from '../../../public/assets/home/produtos_home/carregador_CCDC.png';
 import carregadorAC from '../../../public/assets/home/produtos_home/carregador_AC_BCP_solo.png';
 
+import interruptor from '../../../public/assets/home/produtos_home/6btn.png';
+import interruptor4 from '../../../public/assets/home/produtos_home/4btn.png';
+import interruptor3 from '../../../public/assets/home/produtos_home/3btn.png';
+import interruptor2 from '../../../public/assets/home/produtos_home/2btn.png';
+import interruptor1 from '../../../public/assets/home/produtos_home/1btn.png';
+
 
 //import slider
 import carregador1 from '../../../public/assets/home/slider/slider_carregador.png';
@@ -45,6 +51,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carous
 import { Carousel } from 'react-responsive-carousel';
 
 const Products: NextPage = () => {
+  
   const products = [
     {
       title: 'ONT XPON HÍBRIDA AC1200 GIGABIT',
@@ -133,6 +140,46 @@ const Products: NextPage = () => {
       imageDescription: 'estacao-BDC',
       nav: '/estacao-BDC',
     },
+  ];
+
+  const products3 = [
+
+    {
+      title: 'INTERRUPTOR TOUCH WI-FI',
+      description: '6 BOTÕES 4X4',
+      image: interruptor,
+      imageDescription: 'interruptor',
+      nav: '/interruptor-6btn',
+    },
+    {
+      title: 'INTERRUPTOR TOUCH WI-FI',
+      description: '4 BOTÕES 4X4',
+      image: interruptor4,
+      imageDescription: 'interruptor',
+      nav: '/interruptor-4btn',
+    },
+    {
+      title: 'INTERRUPTOR TOUCH WI-FI',
+      description: '3 BOTÕES',
+      image: interruptor3,
+      imageDescription: 'interruptor',
+      nav: '/interruptor-3btn',
+    },
+    {
+      title: 'INTERRUPTOR TOUCH WI-FI',
+      description: '2 BOTÕES',
+      image: interruptor2,
+      imageDescription: 'interruptor',
+      nav: '/interruptor-2btn',
+    },
+    {
+      title: 'INTERRUPTOR TOUCH WI-FI',
+      description: '1 BOTÃO',
+      image: interruptor,
+      imageDescription: 'interruptor',
+      nav: '/interruptor-1btn',
+    },
+
   ];
 
   const carouselImages = [
@@ -409,21 +456,17 @@ e rodovias.
         <article>
           <header>
             <h1>
-            Soluções completas 
-de recarga rápida e ultrarápida em 
-residências, estações de serviço 
-e rodovias.
-
+            Soluções modernas de automação: interruptores inteligentes projetados para oferecer conforto e economia em qualquer espaço.
             </h1>
           </header>
           <main>
-            {products2.map((product2, idx) => (
-              <Link key={idx} href={product2.nav}>
+            {products3.map((products3, idx) => (
+              <Link key={idx} href={products3.nav}>
                 <div>
                   <figure>
-                    <Image src={product2.image} alt={product2.imageDescription} />
+                    <Image src={products3.image} alt={products3.imageDescription} />
                   </figure>
-                  <p>{product2.title}</p>
+                  <p>{products3.title}</p>
                 </div>
               </Link>
             ))}
