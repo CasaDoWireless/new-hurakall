@@ -34,7 +34,7 @@ export const FirstSection = styled.section`
           width: 45rem;
         }
         .img3{
-          width: 40rem;
+          width: 37rem;
         }
 
         header {
